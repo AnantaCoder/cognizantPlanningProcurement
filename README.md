@@ -1,32 +1,59 @@
-# React + TypeScript + Vite
+# Trendwear SOP Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern web application built with React, TypeScript, and Vite, designed to streamline standard operating procedures (SOPs), supply chain workflows, and procurement planning.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React + TypeScript + Vite**: A fast and robust frontend stack.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Recharts**: Composable charting library for data visualization.
+- **Papaparse**: In-browser CSV parsing capabilities.
+- **Lucide React**: Beautiful and consistent icon set.
+- **Oxlint**: Extremely fast JavaScript/TypeScript linter.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the Oxlint configuration
+- Node.js (or Bun/PNPM/Yarn)
+- npm (or equivalent package manager)
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Installation
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   cd trendwear-sop-platform
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development Server
+
+Start the Vite development server with Hot Module Replacement (HMR):
+
+```bash
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Build for Production
+
+Compile TypeScript and build the application:
+
+```bash
+npm run build
+```
+
+### Linting
+
+Run the linter to check for code quality issues:
+
+```bash
+npm run lint
+```
+
+## Architecture
+
+This project is scaffolded using the official Vite React template. It employs modern frontend architecture best practices, ensuring scalability, performance, and maintainability.
