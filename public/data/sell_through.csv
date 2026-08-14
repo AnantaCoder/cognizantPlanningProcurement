@@ -1,0 +1,73 @@
+category,channel,full_price_sell_through_pct,first_markdown_sell_through_pct,final_clearance_pct,return_rate_pct,avg_days_to_sell
+"Tops & Tees","E-Commerce Direct",79.4,23.0,-2.3,29.7,51
+"Tops & Tees","Flagship Retail Stores",67.9,25.4,6.7,10.5,45
+"Tops & Tees","Wholesale Department",71.9,24.4,3.7,11.9,55
+"Tops & Tees","Outlet Stores",65.3,26.4,8.3,8.8,62
+"Polos & Henleys","E-Commerce Direct",74.7,28.2,-2.9,26.2,58
+"Polos & Henleys","Flagship Retail Stores",68.0,21.4,10.6,8.6,83
+"Polos & Henleys","Wholesale Department",77.8,24.7,-2.5,11.3,62
+"Polos & Henleys","Outlet Stores",74.7,20.4,4.9,9.6,82
+"Hoodies & Sweatshirts","E-Commerce Direct",67.3,20.8,11.9,28.9,70
+"Hoodies & Sweatshirts","Flagship Retail Stores",68.8,29.2,2.0,11.1,59
+"Hoodies & Sweatshirts","Wholesale Department",67.6,21.8,10.6,9.7,71
+"Hoodies & Sweatshirts","Outlet Stores",67.6,24.6,7.7,11.8,74
+"Jackets & Windbreakers","E-Commerce Direct",73.7,28.8,-2.4,22.1,65
+"Jackets & Windbreakers","Flagship Retail Stores",79.3,22.1,-1.4,11.7,55
+"Jackets & Windbreakers","Wholesale Department",73.8,22.4,3.9,8.9,71
+"Jackets & Windbreakers","Outlet Stores",66.1,24.7,9.2,8.9,80
+"Down & Winter Parkas","E-Commerce Direct",76.0,26.2,-2.3,26.9,74
+"Down & Winter Parkas","Flagship Retail Stores",77.1,28.1,-5.2,11.0,81
+"Down & Winter Parkas","Wholesale Department",74.6,21.8,3.6,8.1,66
+"Down & Winter Parkas","Outlet Stores",72.5,25.7,1.9,10.3,66
+"Denim Jeans (Slim/Straight)","E-Commerce Direct",79.1,26.2,-5.3,24.2,68
+"Denim Jeans (Slim/Straight)","Flagship Retail Stores",72.8,26.6,0.6,10.2,77
+"Denim Jeans (Slim/Straight)","Wholesale Department",78.3,24.7,-3.0,13.1,46
+"Denim Jeans (Slim/Straight)","Outlet Stores",75.2,22.6,2.1,13.9,83
+"Chinos & Casual Trousers","E-Commerce Direct",69.3,28.8,1.9,26.5,79
+"Chinos & Casual Trousers","Flagship Retail Stores",68.4,20.1,11.5,10.9,50
+"Chinos & Casual Trousers","Wholesale Department",67.2,21.4,11.4,12.7,76
+"Chinos & Casual Trousers","Outlet Stores",71.1,29.8,-0.9,9.2,82
+"Shorts & Swimwear","E-Commerce Direct",67.6,27.3,5.1,23.2,53
+"Shorts & Swimwear","Flagship Retail Stores",69.2,25.0,5.8,10.7,58
+"Shorts & Swimwear","Wholesale Department",68.7,20.4,10.9,13.7,61
+"Shorts & Swimwear","Outlet Stores",65.6,27.6,6.8,11.0,46
+"Dresses & Sundresses","E-Commerce Direct",69.0,25.1,5.8,28.6,69
+"Dresses & Sundresses","Flagship Retail Stores",69.0,22.1,8.9,13.0,59
+"Dresses & Sundresses","Wholesale Department",70.0,25.0,5.0,11.6,84
+"Dresses & Sundresses","Outlet Stores",75.7,29.8,-5.5,10.0,56
+"Linen Shirts & Pants","E-Commerce Direct",70.5,21.6,7.9,27.9,71
+"Linen Shirts & Pants","Flagship Retail Stores",67.1,26.1,6.8,10.1,67
+"Linen Shirts & Pants","Wholesale Department",67.0,22.7,10.3,9.4,55
+"Linen Shirts & Pants","Outlet Stores",79.4,24.7,-4.1,12.5,53
+"Merino Sweaters & Cardigans","E-Commerce Direct",79.7,23.2,-2.9,23.9,46
+"Merino Sweaters & Cardigans","Flagship Retail Stores",65.9,25.8,8.3,9.3,82
+"Merino Sweaters & Cardigans","Wholesale Department",66.1,24.6,9.3,8.5,61
+"Merino Sweaters & Cardigans","Outlet Stores",77.5,27.5,-5.0,10.3,70
+"Activewear Leggings & Tights","E-Commerce Direct",66.8,28.4,4.8,28.5,84
+"Activewear Leggings & Tights","Flagship Retail Stores",72.8,27.4,-0.2,9.7,82
+"Activewear Leggings & Tights","Wholesale Department",79.3,25.8,-5.1,10.2,74
+"Activewear Leggings & Tights","Outlet Stores",68.8,25.5,5.8,12.0,55
+"Performance Sports Bras","E-Commerce Direct",69.8,25.5,4.8,22.7,56
+"Performance Sports Bras","Flagship Retail Stores",79.0,25.7,-4.7,13.8,75
+"Performance Sports Bras","Wholesale Department",70.9,21.9,7.2,8.2,63
+"Performance Sports Bras","Outlet Stores",65.7,29.5,4.9,12.0,69
+"Loungewear & Joggers","E-Commerce Direct",72.9,27.7,-0.6,28.5,61
+"Loungewear & Joggers","Flagship Retail Stores",66.3,24.2,9.6,9.6,57
+"Loungewear & Joggers","Wholesale Department",71.9,22.1,6.0,12.3,83
+"Loungewear & Joggers","Outlet Stores",76.7,23.5,-0.2,8.7,58
+"Fleece Pullovers & Zips","E-Commerce Direct",79.2,28.7,-7.9,24.9,81
+"Fleece Pullovers & Zips","Flagship Retail Stores",70.0,28.1,2.0,10.0,51
+"Fleece Pullovers & Zips","Wholesale Department",77.3,20.4,2.2,10.5,78
+"Fleece Pullovers & Zips","Outlet Stores",65.4,20.7,14.0,8.9,52
+"Silk & Satin Blouses","E-Commerce Direct",69.4,28.0,2.6,22.2,56
+"Silk & Satin Blouses","Flagship Retail Stores",68.0,20.2,11.8,8.9,61
+"Silk & Satin Blouses","Wholesale Department",68.2,21.8,10.0,13.4,46
+"Silk & Satin Blouses","Outlet Stores",78.9,23.6,-2.5,13.4,51
+"Corduroy Overshirts","E-Commerce Direct",75.4,20.8,3.8,26.1,48
+"Corduroy Overshirts","Flagship Retail Stores",68.7,27.7,3.6,13.9,76
+"Corduroy Overshirts","Wholesale Department",68.1,22.6,9.4,12.7,48
+"Corduroy Overshirts","Outlet Stores",76.6,24.0,-0.6,11.8,57
+"Cashmere Blend Knits","E-Commerce Direct",77.1,28.1,-5.2,28.7,83
+"Cashmere Blend Knits","Flagship Retail Stores",75.5,25.9,-1.4,8.6,76
+"Cashmere Blend Knits","Wholesale Department",76.7,21.6,1.7,12.8,52
+"Cashmere Blend Knits","Outlet Stores",70.9,22.6,6.6,8.7,68

@@ -1,0 +1,1081 @@
+sku_id,style_name,category,subcategory,fabric_code,primary_plant_id,secondary_plant_id,sewing_minutes,cut_minutes,unit_cost,wholesale_price,msrp,target_margin_pct,lead_time_weeks,moq_units,safety_stock_days
+TW-TOP-0001,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,6.51,14.56,28,76.8,10,600,29
+TW-POL-0002,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,19,8,9.44,21.84,42,77.5,11,1300,35
+TW-HDY-0003,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,26,10,14.52,33.8,65,77.7,12,1500,28
+TW-JKT-0004,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,42,14,27.16,57.2,110,75.3,13,1000,37
+TW-PRK-0005,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,58,18,43.3,96.2,185,76.6,18,1500,33
+TW-DNM-0006,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.37,40.56,78,76.4,14,800,37
+TW-CHN-0007,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16.31,32.24,62,73.7,11,1000,35
+TW-SHT-0008,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.31,19.76,38,75.5,12,800,22
+TW-DRS-0009,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,30,11,19.78,44.2,85,76.7,11,1400,24
+TW-LIN-0010,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,17.03,37.44,72,76.3,15,700,23
+TW-SWT-0011,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,40,13,28.73,62.4,120,76.1,18,1100,36
+TW-LGG-0012,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,28,10,15.47,28.08,54,71.4,12,1100,25
+TW-BRA-0013,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.46,18.72,36,73.7,12,1400,37
+TW-JOG-0014,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,29,10,15.45,30.16,58,73.4,10,1200,31
+TW-FLC-0015,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,18.63,39,75,75.2,13,900,31
+TW-BLS-0016,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,33.44,70.2,135,75.2,14,1100,25
+TW-CRD-0017,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,21.17,42.64,82,74.2,14,1300,33
+TW-CSH-0018,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,42.98,101.4,195,78,16,1100,24
+TW-TOP-0019,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,7.54,14.56,28,73.1,10,1100,33
+TW-POL-0020,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,12,21.84,42,71.4,11,800,26
+TW-HDY-0021,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,17.81,33.8,65,72.6,12,800,41
+TW-JKT-0022,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,24.47,57.2,110,77.8,13,900,39
+TW-PRK-0023,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,41.91,96.2,185,77.3,18,600,24
+TW-DNM-0024,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,28,10,17.21,40.56,78,77.9,14,900,29
+TW-CHN-0025,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,15.63,32.24,62,74.8,11,1400,34
+TW-SHT-0026,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,8.36,19.76,38,78,12,1300,32
+TW-DRS-0027,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,22.36,44.2,85,73.7,11,600,25
+TW-LIN-0028,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,16.69,37.44,72,76.8,15,1200,38
+TW-SWT-0029,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,27.85,62.4,120,76.8,18,1200,26
+TW-LGG-0030,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,13.97,28.08,54,74.1,12,1200,23
+TW-BRA-0031,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,9.68,18.72,36,73.1,12,1300,36
+TW-JOG-0032,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,16.1,30.16,58,72.2,10,800,29
+TW-FLC-0033,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,16.72,39,75,77.7,13,900,30
+TW-BLS-0034,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,30.58,70.2,135,77.3,14,1200,24
+TW-CRD-0035,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,29,10,18.49,42.64,82,77.5,14,700,32
+TW-CSH-0036,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,45.82,101.4,195,76.5,16,1500,42
+TW-TOP-0037,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,16,7,6.77,14.56,28,75.8,10,800,39
+TW-POL-0038,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,9.74,21.84,42,76.8,11,1000,34
+TW-HDY-0039,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.76,33.8,65,72.7,12,900,21
+TW-JKT-0040,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,25.66,57.2,110,76.7,13,1300,23
+TW-PRK-0041,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.59,96.2,185,77,18,600,35
+TW-DNM-0042,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,19.3,40.56,78,75.3,14,700,31
+TW-CHN-0043,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.31,32.24,62,75.3,11,600,33
+TW-SHT-0044,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,9.51,19.76,38,75,12,800,23
+TW-DRS-0045,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,36,12,22.56,44.2,85,73.5,11,700,38
+TW-LIN-0046,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,18.56,37.44,72,74.2,15,1100,28
+TW-SWT-0047,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,27.94,62.4,120,76.7,18,800,26
+TW-LGG-0048,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,15.1,28.08,54,72,12,1400,24
+TW-BRA-0049,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,11.46,18.72,36,68.2,12,800,34
+TW-JOG-0050,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,13.55,30.16,58,76.6,10,1100,37
+TW-FLC-0051,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,34,12,20.38,39,75,72.8,13,800,41
+TW-BLS-0052,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,31.68,70.2,135,76.5,14,600,40
+TW-CRD-0053,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,19.58,42.64,82,76.1,14,1000,29
+TW-CSH-0054,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,43.67,101.4,195,77.6,16,1200,22
+TW-TOP-0055,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,7.58,14.56,28,72.9,10,1100,27
+TW-POL-0056,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,10.5,21.84,42,75,11,1000,40
+TW-HDY-0057,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,17.4,33.8,65,73.2,12,1500,22
+TW-JKT-0058,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,25.37,57.2,110,76.9,13,1400,28
+TW-PRK-0059,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,43.34,96.2,185,76.6,18,1300,30
+TW-DNM-0060,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,17.46,40.56,78,77.6,14,800,23
+TW-CHN-0061,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,15.4,32.24,62,75.2,11,1500,22
+TW-SHT-0062,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,10.58,19.76,38,72.2,12,900,40
+TW-DRS-0063,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,20.98,44.2,85,75.3,11,1400,29
+TW-LIN-0064,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17,37.44,72,76.4,15,1100,34
+TW-SWT-0065,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,43,14,27.87,62.4,120,76.8,18,1300,22
+TW-LGG-0066,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,15.02,28.08,54,72.2,12,900,25
+TW-BRA-0067,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,8.78,18.72,36,75.6,12,1500,22
+TW-JOG-0068,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,12.76,30.16,58,78,10,800,36
+TW-FLC-0069,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,17.75,39,75,76.3,13,1100,24
+TW-BLS-0070,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,33.42,70.2,135,75.2,14,1300,26
+TW-CRD-0071,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,34,12,20.92,42.64,82,74.5,14,900,30
+TW-CSH-0072,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,44.04,101.4,195,77.4,16,700,35
+TW-TOP-0073,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,8.03,14.56,28,71.3,10,1300,41
+TW-POL-0074,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,9.8,21.84,42,76.7,11,900,42
+TW-HDY-0075,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,18,33.8,65,72.3,12,1300,38
+TW-JKT-0076,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,27.61,57.2,110,74.9,13,800,34
+TW-PRK-0077,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,41.48,96.2,185,77.6,18,1400,30
+TW-DNM-0078,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,20.09,40.56,78,74.2,14,1200,31
+TW-CHN-0079,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,14.4,32.24,62,76.8,11,1200,28
+TW-SHT-0080,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,9.01,19.76,38,76.3,12,1000,38
+TW-DRS-0081,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,19.2,44.2,85,77.4,11,600,26
+TW-LIN-0082,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,17.87,37.44,72,75.2,15,1000,40
+TW-SWT-0083,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,29.81,62.4,120,75.2,18,1200,40
+TW-LGG-0084,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,12.8,28.08,54,76.3,12,900,28
+TW-BRA-0085,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,11.14,18.72,36,69.1,12,800,30
+TW-JOG-0086,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,12.82,30.16,58,77.9,10,800,21
+TW-FLC-0087,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,18.84,39,75,74.9,13,1100,27
+TW-BLS-0088,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.13,70.2,135,76.2,14,1400,36
+TW-CRD-0089,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,21.39,42.64,82,73.9,14,1400,22
+TW-CSH-0090,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,56,17,43.03,101.4,195,77.9,16,1400,35
+TW-TOP-0091,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,8.35,14.56,28,70.2,10,700,24
+TW-POL-0092,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,19,8,9.2,21.84,42,78.1,11,1000,39
+TW-HDY-0093,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,25,9,15.48,33.8,65,76.2,12,1300,30
+TW-JKT-0094,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,35,12,24.89,57.2,110,77.4,13,700,31
+TW-PRK-0095,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,42.55,96.2,185,77,18,1200,22
+TW-DNM-0096,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,34,12,20.32,40.56,78,73.9,14,700,23
+TW-CHN-0097,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,13.8,32.24,62,77.7,11,1200,37
+TW-SHT-0098,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.86,19.76,38,68.8,12,700,35
+TW-DRS-0099,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,19.26,44.2,85,77.3,11,700,39
+TW-LIN-0100,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,33,11,18.95,37.44,72,73.7,15,1000,37
+TW-SWT-0101,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,27.07,62.4,120,77.4,18,1400,31
+TW-LGG-0102,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,13.83,28.08,54,74.4,12,700,38
+TW-BRA-0103,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,8.1,18.72,36,77.5,12,1200,26
+TW-JOG-0104,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,30,11,16.23,30.16,58,72,10,900,25
+TW-FLC-0105,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,18.78,39,75,75,13,900,33
+TW-BLS-0106,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,32.77,70.2,135,75.7,14,1400,36
+TW-CRD-0107,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,20.89,42.64,82,74.5,14,600,26
+TW-CSH-0108,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,58,18,43.23,101.4,195,77.8,16,1300,30
+TW-TOP-0109,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,7.91,14.56,28,71.8,10,1000,21
+TW-POL-0110,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,25,9,12.29,21.84,42,70.7,11,1100,27
+TW-HDY-0111,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,26,10,14.69,33.8,65,77.4,12,500,21
+TW-JKT-0112,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,36,12,25.16,57.2,110,77.1,13,1000,31
+TW-PRK-0113,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,41.28,96.2,185,77.7,18,1300,34
+TW-DNM-0114,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,28,10,18,40.56,78,76.9,14,1500,36
+TW-CHN-0115,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,13.67,32.24,62,78,11,500,36
+TW-SHT-0116,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,9.81,19.76,38,74.2,12,900,28
+TW-DRS-0117,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,21.04,44.2,85,75.2,11,1300,23
+TW-LIN-0118,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,31,11,18.35,37.44,72,74.5,15,500,35
+TW-SWT-0119,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,40,13,26.7,62.4,120,77.8,18,1000,38
+TW-LGG-0120,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,15.52,28.08,54,71.3,12,1000,28
+TW-BRA-0121,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,10.9,18.72,36,69.7,12,1100,29
+TW-JOG-0122,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,29,10,16.15,30.16,58,72.2,10,800,34
+TW-FLC-0123,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,19.13,39,75,74.5,13,1500,35
+TW-BLS-0124,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,41,13,29.49,70.2,135,78.2,14,1000,40
+TW-CRD-0125,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,19.8,42.64,82,75.9,14,700,23
+TW-CSH-0126,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,43.54,101.4,195,77.7,16,1100,38
+TW-TOP-0127,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,6.21,14.56,28,77.8,10,1300,29
+TW-POL-0128,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,12.15,21.84,42,71.1,11,600,31
+TW-HDY-0129,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,16.83,33.8,65,74.1,12,1400,25
+TW-JKT-0130,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,27.82,57.2,110,74.7,13,1300,26
+TW-PRK-0131,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.25,96.2,185,77.2,18,1000,40
+TW-DNM-0132,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,17.34,40.56,78,77.8,14,600,27
+TW-CHN-0133,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,15.77,32.24,62,74.6,11,500,26
+TW-SHT-0134,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.62,19.76,38,74.7,12,1100,29
+TW-DRS-0135,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,30,11,18.84,44.2,85,77.8,11,500,30
+TW-LIN-0136,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,26,10,16.26,37.44,72,77.4,15,1400,26
+TW-SWT-0137,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,30.04,62.4,120,75,18,700,36
+TW-LGG-0138,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,13.43,28.08,54,75.1,12,700,38
+TW-BRA-0139,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.18,18.72,36,74.5,12,1300,30
+TW-JOG-0140,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,24,9,13.83,30.16,58,76.2,10,700,41
+TW-FLC-0141,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,27,10,17.02,39,75,77.3,13,500,22
+TW-BLS-0142,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,42,14,30.18,70.2,135,77.6,14,1300,38
+TW-CRD-0143,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,20.1,42.64,82,75.5,14,1200,25
+TW-CSH-0144,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,42.67,101.4,195,78.1,16,900,32
+TW-TOP-0145,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,8.47,14.56,28,69.8,10,1200,24
+TW-POL-0146,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,26,10,13.17,21.84,42,68.6,11,1200,36
+TW-HDY-0147,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,16.88,33.8,65,74,12,700,28
+TW-JKT-0148,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,25.62,57.2,110,76.7,13,1200,30
+TW-PRK-0149,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,43.86,96.2,185,76.3,18,1000,26
+TW-DNM-0150,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,17.87,40.56,78,77.1,14,1000,40
+TW-CHN-0151,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16.18,32.24,62,73.9,11,600,23
+TW-SHT-0152,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.26,19.76,38,75.6,12,1200,26
+TW-DRS-0153,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,19.9,44.2,85,76.6,11,600,27
+TW-LIN-0154,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,18.98,37.44,72,73.6,15,1200,31
+TW-SWT-0155,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,29.09,62.4,120,75.8,18,600,42
+TW-LGG-0156,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,13.33,28.08,54,75.3,12,1300,22
+TW-BRA-0157,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.6,18.72,36,73.3,12,1000,34
+TW-JOG-0158,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,13.36,30.16,58,77,10,1200,42
+TW-FLC-0159,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,19.4,39,75,74.1,13,600,31
+TW-BLS-0160,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,31.7,70.2,135,76.5,14,1200,39
+TW-CRD-0161,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,30,11,20.26,42.64,82,75.3,14,1100,34
+TW-CSH-0162,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,45.04,101.4,195,76.9,16,1300,37
+TW-TOP-0163,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,20,8,7.28,14.56,28,74,10,600,21
+TW-POL-0164,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,11.07,21.84,42,73.6,11,600,41
+TW-HDY-0165,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,15.71,33.8,65,75.8,12,1200,37
+TW-JKT-0166,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,26.85,57.2,110,75.6,13,1100,30
+TW-PRK-0167,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,40.57,96.2,185,78.1,18,600,37
+TW-DNM-0168,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,17.39,40.56,78,77.7,14,800,36
+TW-CHN-0169,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,16.85,32.24,62,72.8,11,1200,23
+TW-SHT-0170,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.22,19.76,38,73.1,12,600,41
+TW-DRS-0171,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,30,11,19.26,44.2,85,77.3,11,1300,39
+TW-LIN-0172,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.97,37.44,72,75,15,600,32
+TW-SWT-0173,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,29.94,62.4,120,75.1,18,600,34
+TW-LGG-0174,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,13.9,28.08,54,74.3,12,800,39
+TW-BRA-0175,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,8.21,18.72,36,77.2,12,800,32
+TW-JOG-0176,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,12.74,30.16,58,78,10,1300,41
+TW-FLC-0177,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,20,39,75,73.3,13,1300,33
+TW-BLS-0178,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,33.21,70.2,135,75.4,14,1100,22
+TW-CRD-0179,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,21.17,42.64,82,74.2,14,1400,33
+TW-CSH-0180,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,43.58,101.4,195,77.7,16,1200,38
+TW-TOP-0181,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,22,9,9.22,14.56,28,67.1,10,1500,27
+TW-POL-0182,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.96,21.84,42,71.5,11,1000,31
+TW-HDY-0183,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,25,9,14.76,33.8,65,77.3,12,1300,37
+TW-JKT-0184,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,36,12,25.53,57.2,110,76.8,13,600,22
+TW-PRK-0185,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,42.62,96.2,185,77,18,1500,37
+TW-DNM-0186,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,17.2,40.56,78,77.9,14,1200,22
+TW-CHN-0187,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,15.74,32.24,62,74.6,11,900,30
+TW-SHT-0188,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,9.91,19.76,38,73.9,12,1100,34
+TW-DRS-0189,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,34,12,20.08,44.2,85,76.4,11,900,33
+TW-LIN-0190,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16.15,37.44,72,77.6,15,900,21
+TW-SWT-0191,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,38,13,27.44,62.4,120,77.1,18,600,22
+TW-LGG-0192,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,14.63,28.08,54,72.9,12,1000,42
+TW-BRA-0193,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.19,18.72,36,74.5,12,800,28
+TW-JOG-0194,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,15.3,30.16,58,73.6,10,1500,27
+TW-FLC-0195,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,19.17,39,75,74.4,13,1300,41
+TW-BLS-0196,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,31.51,70.2,135,76.7,14,800,28
+TW-CRD-0197,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,29,10,18.56,42.64,82,77.4,14,500,39
+TW-CSH-0198,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,44.89,101.4,195,77,16,700,41
+TW-TOP-0199,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,8.32,14.56,28,70.3,10,500,24
+TW-POL-0200,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,25,9,12.1,21.84,42,71.2,11,1200,30
+TW-HDY-0201,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,16.7,33.8,65,74.3,12,1400,25
+TW-JKT-0202,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,25.18,57.2,110,77.1,13,1200,34
+TW-PRK-0203,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,40.49,96.2,185,78.1,18,600,30
+TW-DNM-0204,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.33,40.56,78,76.5,14,1500,36
+TW-CHN-0205,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,14.34,32.24,62,76.9,11,1400,35
+TW-SHT-0206,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,10.06,19.76,38,73.5,12,900,23
+TW-DRS-0207,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,18.68,44.2,85,78,11,1500,28
+TW-LIN-0208,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,27,10,17.23,37.44,72,76.1,15,1100,34
+TW-SWT-0209,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,38,13,26.86,62.4,120,77.6,18,1000,34
+TW-LGG-0210,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,12.77,28.08,54,76.4,12,800,35
+TW-BRA-0211,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.75,18.72,36,72.9,12,1500,25
+TW-JOG-0212,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,30,11,16.32,30.16,58,71.9,10,900,27
+TW-FLC-0213,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,20.16,39,75,73.1,13,900,39
+TW-BLS-0214,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,33.33,70.2,135,75.3,14,700,41
+TW-CRD-0215,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,21.14,42.64,82,74.2,14,700,24
+TW-CSH-0216,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,45.01,101.4,195,76.9,16,1300,35
+TW-TOP-0217,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,21,8,8.27,14.56,28,70.5,10,900,25
+TW-POL-0218,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,26,10,13.06,21.84,42,68.9,11,1500,26
+TW-HDY-0219,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,15.44,33.8,65,76.2,12,1100,38
+TW-JKT-0220,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,27.62,57.2,110,74.9,13,600,22
+TW-PRK-0221,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,60,18,43.99,96.2,185,76.2,18,800,31
+TW-DNM-0222,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,20.5,40.56,78,73.7,14,1400,27
+TW-CHN-0223,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,15.27,32.24,62,75.4,11,800,33
+TW-SHT-0224,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.36,19.76,38,75.4,12,500,41
+TW-DRS-0225,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,34,12,20.21,44.2,85,76.2,11,1100,37
+TW-LIN-0226,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.64,37.44,72,75.5,15,1400,35
+TW-SWT-0227,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,27.65,62.4,120,77,18,800,40
+TW-LGG-0228,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,14.15,28.08,54,73.8,12,700,41
+TW-BRA-0229,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,9.47,18.72,36,73.7,12,1300,31
+TW-JOG-0230,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,16.05,30.16,58,72.3,10,700,38
+TW-FLC-0231,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,17.97,39,75,76,13,800,21
+TW-BLS-0232,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,32.11,70.2,135,76.2,14,1100,37
+TW-CRD-0233,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,34,12,21.74,42.64,82,73.5,14,500,29
+TW-CSH-0234,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,61,18,44.67,101.4,195,77.1,16,1300,36
+TW-TOP-0235,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.22,14.56,28,77.8,10,600,26
+TW-POL-0236,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,12.01,21.84,42,71.4,11,1000,31
+TW-HDY-0237,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,16.64,33.8,65,74.4,12,800,30
+TW-JKT-0238,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,24.65,57.2,110,77.6,13,1400,22
+TW-PRK-0239,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,42.18,96.2,185,77.2,18,1300,34
+TW-DNM-0240,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,19.1,40.56,78,75.5,14,700,34
+TW-CHN-0241,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,24,9,13.58,32.24,62,78.1,11,1400,22
+TW-SHT-0242,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,9.59,19.76,38,74.8,12,1000,29
+TW-DRS-0243,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,21.28,44.2,85,75,11,1000,36
+TW-LIN-0244,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.02,37.44,72,76.4,15,1400,34
+TW-SWT-0245,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,40,13,26.45,62.4,120,78,18,800,28
+TW-LGG-0246,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,12.15,28.08,54,77.5,12,500,35
+TW-BRA-0247,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,8.29,18.72,36,77,12,1200,34
+TW-JOG-0248,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,24,9,13.61,30.16,58,76.5,10,900,28
+TW-FLC-0249,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,18.95,39,75,74.7,13,1000,40
+TW-BLS-0250,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,31.68,70.2,135,76.5,14,900,26
+TW-CRD-0251,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,35,12,21.33,42.64,82,74,14,1000,26
+TW-CSH-0252,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,46.31,101.4,195,76.3,16,1200,34
+TW-TOP-0253,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.53,14.56,28,76.7,10,1200,22
+TW-POL-0254,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,10.79,21.84,42,74.3,11,1100,26
+TW-HDY-0255,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,15.99,33.8,65,75.4,12,1400,30
+TW-JKT-0256,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,35,12,24.11,57.2,110,78.1,13,1000,28
+TW-PRK-0257,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,40.56,96.2,185,78.1,18,1200,25
+TW-DNM-0258,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,17.9,40.56,78,77.1,14,1300,34
+TW-CHN-0259,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,16.33,32.24,62,73.7,11,1400,22
+TW-SHT-0260,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.56,19.76,38,72.2,12,800,39
+TW-DRS-0261,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,30,11,19.31,44.2,85,77.3,11,1200,37
+TW-LIN-0262,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,32,11,18.76,37.44,72,73.9,15,1400,42
+TW-SWT-0263,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,38,13,26.25,62.4,120,78.1,18,1200,35
+TW-LGG-0264,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,13.96,28.08,54,74.1,12,800,28
+TW-BRA-0265,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.05,18.72,36,74.9,12,1500,30
+TW-JOG-0266,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,15.28,30.16,58,73.7,10,1000,30
+TW-FLC-0267,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,17.15,39,75,77.1,13,1200,23
+TW-BLS-0268,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,32.91,70.2,135,75.6,14,1200,22
+TW-CRD-0269,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,20.73,42.64,82,74.7,14,1200,28
+TW-CSH-0270,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,46.35,101.4,195,76.2,16,1100,29
+TW-TOP-0271,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,7.51,14.56,28,73.2,10,1200,36
+TW-POL-0272,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,25,9,12.05,21.84,42,71.3,11,1400,42
+TW-HDY-0273,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,14.6,33.8,65,77.5,12,900,22
+TW-JKT-0274,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,27.05,57.2,110,75.4,13,1300,33
+TW-PRK-0275,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,42.11,96.2,185,77.2,18,600,21
+TW-DNM-0276,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,28,10,17.68,40.56,78,77.3,14,500,22
+TW-CHN-0277,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,14.98,32.24,62,75.8,11,1300,26
+TW-SHT-0278,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,11.27,19.76,38,70.3,12,500,35
+TW-DRS-0279,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,30,11,19.68,44.2,85,76.8,11,1500,41
+TW-LIN-0280,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,32,11,19.35,37.44,72,73.1,15,1300,36
+TW-SWT-0281,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,28.45,62.4,120,76.3,18,800,41
+TW-LGG-0282,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,15.54,28.08,54,71.2,12,1200,32
+TW-BRA-0283,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.03,18.72,36,74.9,12,1300,38
+TW-JOG-0284,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,14.39,30.16,58,75.2,10,1400,24
+TW-FLC-0285,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,28,10,18.21,39,75,75.7,13,1200,22
+TW-BLS-0286,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,47,15,33.01,70.2,135,75.5,14,600,31
+TW-CRD-0287,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,18.88,42.64,82,77,14,1000,32
+TW-CSH-0288,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,44.01,101.4,195,77.4,16,1000,36
+TW-TOP-0289,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,6.89,14.56,28,75.4,10,1000,40
+TW-POL-0290,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,9.98,21.84,42,76.2,11,1300,22
+TW-HDY-0291,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.09,33.8,65,73.7,12,1400,32
+TW-JKT-0292,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,25.39,57.2,110,76.9,13,1400,23
+TW-PRK-0293,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,41.59,96.2,185,77.5,18,700,24
+TW-DNM-0294,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,18.4,40.56,78,76.4,14,1200,25
+TW-CHN-0295,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,14.16,32.24,62,77.2,11,1300,22
+TW-SHT-0296,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.65,19.76,38,74.6,12,1500,37
+TW-DRS-0297,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,21.34,44.2,85,74.9,11,800,30
+TW-LIN-0298,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,27,10,16.81,37.44,72,76.7,15,1100,28
+TW-SWT-0299,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,38,13,27.3,62.4,120,77.3,18,600,24
+TW-LGG-0300,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,12.93,28.08,54,76.1,12,1100,27
+TW-BRA-0301,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,9.58,18.72,36,73.4,12,1100,41
+TW-JOG-0302,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,16.12,30.16,58,72.2,10,500,26
+TW-FLC-0303,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,26,10,16.4,39,75,78.1,13,1300,23
+TW-BLS-0304,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,47,15,32.47,70.2,135,75.9,14,900,41
+TW-CRD-0305,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,29,10,19.17,42.64,82,76.6,14,1300,37
+TW-CSH-0306,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,58,18,45.49,101.4,195,76.7,16,500,30
+TW-TOP-0307,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,22,9,10.07,14.56,28,64,10,1300,25
+TW-POL-0308,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,24,9,12.35,21.84,42,70.6,11,700,36
+TW-HDY-0309,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.92,33.8,65,72.4,12,1100,36
+TW-JKT-0310,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,26.02,57.2,110,76.3,13,1200,30
+TW-PRK-0311,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,59,18,43.06,96.2,185,76.7,18,1200,36
+TW-DNM-0312,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,28,10,17.99,40.56,78,76.9,14,1400,26
+TW-CHN-0313,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16,32.24,62,74.2,11,700,41
+TW-SHT-0314,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.61,19.76,38,72.1,12,1500,41
+TW-DRS-0315,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,20.45,44.2,85,75.9,11,1500,35
+TW-LIN-0316,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,32,11,18.28,37.44,72,74.6,15,900,21
+TW-SWT-0317,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,26.87,62.4,120,77.6,18,600,41
+TW-LGG-0318,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,28,10,15.26,28.08,54,71.7,12,800,31
+TW-BRA-0319,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,11.79,18.72,36,67.3,12,800,30
+TW-JOG-0320,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,29,10,16.08,30.16,58,72.3,10,1300,39
+TW-FLC-0321,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,18.3,39,75,75.6,13,1200,31
+TW-BLS-0322,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,47,15,32.26,70.2,135,76.1,14,700,38
+TW-CRD-0323,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.36,42.64,82,77.6,14,1200,33
+TW-CSH-0324,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,44.86,101.4,195,77,16,800,36
+TW-TOP-0325,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,7.51,14.56,28,73.2,10,600,31
+TW-POL-0326,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,10.66,21.84,42,74.6,11,1400,29
+TW-HDY-0327,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,17.25,33.8,65,73.5,12,900,40
+TW-JKT-0328,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,27.96,57.2,110,74.6,13,700,41
+TW-PRK-0329,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,43.26,96.2,185,76.6,18,1300,36
+TW-DNM-0330,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.3,40.56,78,76.5,14,1500,31
+TW-CHN-0331,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,29,10,17.05,32.24,62,72.5,11,900,41
+TW-SHT-0332,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.41,19.76,38,75.2,12,900,35
+TW-DRS-0333,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,20.92,44.2,85,75.4,11,1500,23
+TW-LIN-0334,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,31,11,17.87,37.44,72,75.2,15,1200,32
+TW-SWT-0335,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,29.61,62.4,120,75.3,18,1000,25
+TW-LGG-0336,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,14.3,28.08,54,73.5,12,1400,30
+TW-BRA-0337,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,8.59,18.72,36,76.1,12,1100,25
+TW-JOG-0338,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,23,9,13,30.16,58,77.6,10,1200,37
+TW-FLC-0339,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,17.96,39,75,76.1,13,1100,24
+TW-BLS-0340,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.76,70.2,135,75.7,14,1400,25
+TW-CRD-0341,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,30,11,17.94,42.64,82,78.1,14,900,31
+TW-CSH-0342,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,44.19,101.4,195,77.3,16,800,23
+TW-TOP-0343,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,22,9,9.22,14.56,28,67.1,10,500,38
+TW-POL-0344,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,11.76,21.84,42,72,11,1500,25
+TW-HDY-0345,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,26,10,14.56,33.8,65,77.6,12,600,41
+TW-JKT-0346,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,24.74,57.2,110,77.5,13,1200,36
+TW-PRK-0347,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,58,18,42.88,96.2,185,76.8,18,600,39
+TW-DNM-0348,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,18.8,40.56,78,75.9,14,900,26
+TW-CHN-0349,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,30,11,16.89,32.24,62,72.8,11,700,42
+TW-SHT-0350,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,9.58,19.76,38,74.8,12,900,23
+TW-DRS-0351,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,20.76,44.2,85,75.6,11,1100,42
+TW-LIN-0352,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,31,11,17.9,37.44,72,75.1,15,900,27
+TW-SWT-0353,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,29.61,62.4,120,75.3,18,800,27
+TW-LGG-0354,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,13.95,28.08,54,74.2,12,700,24
+TW-BRA-0355,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,8.95,18.72,36,75.1,12,900,27
+TW-JOG-0356,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,24,9,13.3,30.16,58,77.1,10,1000,41
+TW-FLC-0357,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,27,10,17.14,39,75,77.1,13,700,22
+TW-BLS-0358,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,31.85,70.2,135,76.4,14,1100,28
+TW-CRD-0359,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,20,42.64,82,75.6,14,1500,39
+TW-CSH-0360,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,46.25,101.4,195,76.3,16,1400,39
+TW-TOP-0361,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,21,8,9.32,14.56,28,66.7,10,900,34
+TW-POL-0362,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,11.4,21.84,42,72.9,11,800,24
+TW-HDY-0363,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,31,11,17.83,33.8,65,72.6,12,1400,31
+TW-JKT-0364,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,25.41,57.2,110,76.9,13,1500,35
+TW-PRK-0365,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.86,96.2,185,76.8,18,700,32
+TW-DNM-0366,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,32,11,19.24,40.56,78,75.3,14,1000,23
+TW-CHN-0367,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,29,10,16.05,32.24,62,74.1,11,600,37
+TW-SHT-0368,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,9.8,19.76,38,74.2,12,500,37
+TW-DRS-0369,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,20.84,44.2,85,75.5,11,800,27
+TW-LIN-0370,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.85,37.44,72,75.2,15,1100,31
+TW-SWT-0371,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,29.65,62.4,120,75.3,18,1500,38
+TW-LGG-0372,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,14.81,28.08,54,72.6,12,1400,40
+TW-BRA-0373,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,17,7,8.12,18.72,36,77.4,12,800,33
+TW-JOG-0374,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,30,11,16.34,30.16,58,71.8,10,900,22
+TW-FLC-0375,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,17.06,39,75,77.3,13,1200,37
+TW-BLS-0376,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,31.94,70.2,135,76.3,14,1000,28
+TW-CRD-0377,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,17.98,42.64,82,78.1,14,1100,24
+TW-CSH-0378,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,42.69,101.4,195,78.1,16,1000,40
+TW-TOP-0379,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,16,7,7.21,14.56,28,74.3,10,600,36
+TW-POL-0380,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.47,21.84,42,72.7,11,1100,36
+TW-HDY-0381,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,31,11,18.08,33.8,65,72.2,12,1000,22
+TW-JKT-0382,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,26.39,57.2,110,76,13,500,38
+TW-PRK-0383,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,40.46,96.2,185,78.1,18,900,22
+TW-DNM-0384,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,20.12,40.56,78,74.2,14,1500,32
+TW-CHN-0385,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,14.25,32.24,62,77,11,1500,41
+TW-SHT-0386,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.79,19.76,38,74.2,12,1000,41
+TW-DRS-0387,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,20.59,44.2,85,75.8,11,1500,34
+TW-LIN-0388,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,16.48,37.44,72,77.1,15,700,32
+TW-SWT-0389,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,38,13,26.62,62.4,120,77.8,18,1400,31
+TW-LGG-0390,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.9,28.08,54,78,12,1100,31
+TW-BRA-0391,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,10.87,18.72,36,69.8,12,1200,23
+TW-JOG-0392,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,13.91,30.16,58,76,10,1300,40
+TW-FLC-0393,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,20.29,39,75,72.9,13,1100,42
+TW-BLS-0394,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,31.59,70.2,135,76.6,14,1400,40
+TW-CRD-0395,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,30,11,20.07,42.64,82,75.5,14,600,27
+TW-CSH-0396,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,43.48,101.4,195,77.7,16,1200,24
+TW-TOP-0397,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,20,8,7.44,14.56,28,73.4,10,1300,36
+TW-POL-0398,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,20,8,9.63,21.84,42,77.1,11,700,31
+TW-HDY-0399,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,17.96,33.8,65,72.4,12,900,27
+TW-JKT-0400,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,24.85,57.2,110,77.4,13,1000,21
+TW-PRK-0401,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,41.52,96.2,185,77.6,18,600,33
+TW-DNM-0402,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,19.2,40.56,78,75.4,14,1500,38
+TW-CHN-0403,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,29,10,16.41,32.24,62,73.5,11,1500,30
+TW-SHT-0404,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,11.53,19.76,38,69.7,12,1400,40
+TW-DRS-0405,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,36,12,22.03,44.2,85,74.1,11,1400,39
+TW-LIN-0406,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.77,37.44,72,78.1,15,900,26
+TW-SWT-0407,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,40,13,27.87,62.4,120,76.8,18,600,25
+TW-LGG-0408,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,12.05,28.08,54,77.7,12,1200,26
+TW-BRA-0409,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.84,18.72,36,72.7,12,900,27
+TW-JOG-0410,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,16.04,30.16,58,72.3,10,800,28
+TW-FLC-0411,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,18.91,39,75,74.8,13,1300,37
+TW-BLS-0412,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.07,70.2,135,76.2,14,800,31
+TW-CRD-0413,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,20.82,42.64,82,74.6,14,1500,40
+TW-CSH-0414,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,46.15,101.4,195,76.3,16,700,29
+TW-TOP-0415,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,22,9,9.4,14.56,28,66.4,10,1500,29
+TW-POL-0416,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,10.67,21.84,42,74.6,11,1200,32
+TW-HDY-0417,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,18.12,33.8,65,72.1,12,1100,34
+TW-JKT-0418,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,24.43,57.2,110,77.8,13,900,40
+TW-PRK-0419,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,58,18,44.22,96.2,185,76.1,18,700,31
+TW-DNM-0420,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,33,11,20.09,40.56,78,74.2,14,1200,21
+TW-CHN-0421,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,13.91,32.24,62,77.6,11,1200,33
+TW-SHT-0422,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,9.55,19.76,38,74.9,12,1300,26
+TW-DRS-0423,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,22.37,44.2,85,73.7,11,1300,27
+TW-LIN-0424,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,32,11,19.54,37.44,72,72.9,15,1200,35
+TW-SWT-0425,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,27.76,62.4,120,76.9,18,1400,41
+TW-LGG-0426,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,14.51,28.08,54,73.1,12,900,34
+TW-BRA-0427,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,11.5,18.72,36,68.1,12,700,40
+TW-JOG-0428,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,15.18,30.16,58,73.8,10,1300,29
+TW-FLC-0429,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,17.65,39,75,76.5,13,900,26
+TW-BLS-0430,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,33.1,70.2,135,75.5,14,500,27
+TW-CRD-0431,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,20.39,42.64,82,75.1,14,1000,39
+TW-CSH-0432,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,43.07,101.4,195,77.9,16,1100,28
+TW-TOP-0433,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,23,9,9.98,14.56,28,64.4,10,1300,30
+TW-POL-0434,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,11.44,21.84,42,72.8,11,1100,28
+TW-HDY-0435,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,14.31,33.8,65,78,12,1000,31
+TW-JKT-0436,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,26.74,57.2,110,75.7,13,1500,24
+TW-PRK-0437,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,41.15,96.2,185,77.8,18,800,25
+TW-DNM-0438,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,20.94,40.56,78,73.2,14,1100,37
+TW-CHN-0439,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,30,11,16.9,32.24,62,72.7,11,500,25
+TW-SHT-0440,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.36,19.76,38,75.4,12,900,35
+TW-DRS-0441,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,19.6,44.2,85,76.9,11,900,27
+TW-LIN-0442,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,17.33,37.44,72,75.9,15,500,31
+TW-SWT-0443,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,28.11,62.4,120,76.6,18,500,38
+TW-LGG-0444,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,14.48,28.08,54,73.2,12,1200,37
+TW-BRA-0445,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.43,18.72,36,73.8,12,800,33
+TW-JOG-0446,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,15.2,30.16,58,73.8,10,1000,22
+TW-FLC-0447,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,19.26,39,75,74.3,13,600,22
+TW-BLS-0448,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,42,14,30.1,70.2,135,77.7,14,600,25
+TW-CRD-0449,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,21.23,42.64,82,74.1,14,500,29
+TW-CSH-0450,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,43.87,101.4,195,77.5,16,1100,26
+TW-TOP-0451,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,7.29,14.56,28,74,10,1000,27
+TW-POL-0452,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,9.97,21.84,42,76.3,11,1100,25
+TW-HDY-0453,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,14.86,33.8,65,77.1,12,1300,40
+TW-JKT-0454,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,25.24,57.2,110,77.1,13,800,27
+TW-PRK-0455,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,54,17,41.2,96.2,185,77.7,18,1000,23
+TW-DNM-0456,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,32,11,20.6,40.56,78,73.6,14,800,33
+TW-CHN-0457,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,15.55,32.24,62,74.9,11,1400,22
+TW-SHT-0458,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,11.29,19.76,38,70.3,12,1100,24
+TW-DRS-0459,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,18.72,44.2,85,78,11,1200,38
+TW-LIN-0460,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.75,37.44,72,75.3,15,600,22
+TW-SWT-0461,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,26.69,62.4,120,77.8,18,500,35
+TW-LGG-0462,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,13.02,28.08,54,75.9,12,700,33
+TW-BRA-0463,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,11.05,18.72,36,69.3,12,700,38
+TW-JOG-0464,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,23,9,13.86,30.16,58,76.1,10,1100,32
+TW-FLC-0465,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,17.71,39,75,76.4,13,700,36
+TW-BLS-0466,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,42,14,30.33,70.2,135,77.5,14,800,26
+TW-CRD-0467,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,19.7,42.64,82,76,14,1300,28
+TW-CSH-0468,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,45.71,101.4,195,76.6,16,1400,28
+TW-TOP-0469,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,7.79,14.56,28,72.2,10,1500,37
+TW-POL-0470,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,10.7,21.84,42,74.5,11,1300,27
+TW-HDY-0471,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,15.83,33.8,65,75.6,12,1200,38
+TW-JKT-0472,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,24.29,57.2,110,77.9,13,1300,38
+TW-PRK-0473,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.93,96.2,185,76.8,18,500,30
+TW-DNM-0474,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,32,11,19.48,40.56,78,75,14,1500,34
+TW-CHN-0475,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.81,32.24,62,74.5,11,1000,37
+TW-SHT-0476,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,11.59,19.76,38,69.5,12,700,25
+TW-DRS-0477,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,34,12,21.56,44.2,85,74.6,11,1200,35
+TW-LIN-0478,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,33,11,18.97,37.44,72,73.7,15,1400,39
+TW-SWT-0479,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,27.92,62.4,120,76.7,18,1000,30
+TW-LGG-0480,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,12.79,28.08,54,76.3,12,800,41
+TW-BRA-0481,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,11.51,18.72,36,68,12,1400,35
+TW-JOG-0482,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,16.14,30.16,58,72.2,10,600,26
+TW-FLC-0483,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,33,11,19.76,39,75,73.7,13,1200,30
+TW-BLS-0484,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,47,15,32.52,70.2,135,75.9,14,600,39
+TW-CRD-0485,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,19.09,42.64,82,76.7,14,900,39
+TW-CSH-0486,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,46.54,101.4,195,76.1,16,1100,21
+TW-TOP-0487,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,8.59,14.56,28,69.3,10,500,27
+TW-POL-0488,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.15,21.84,42,73.5,11,700,30
+TW-HDY-0489,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.39,33.8,65,73.2,12,1200,23
+TW-JKT-0490,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,27.36,57.2,110,75.1,13,900,23
+TW-PRK-0491,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,43.48,96.2,185,76.5,18,600,29
+TW-DNM-0492,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.2,40.56,78,76.7,14,1100,34
+TW-CHN-0493,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,14.02,32.24,62,77.4,11,900,23
+TW-SHT-0494,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,10.48,19.76,38,72.4,12,1000,29
+TW-DRS-0495,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,18.83,44.2,85,77.8,11,1100,38
+TW-LIN-0496,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.61,37.44,72,75.5,15,1400,41
+TW-SWT-0497,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,27.79,62.4,120,76.8,18,1100,32
+TW-LGG-0498,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,12.74,28.08,54,76.4,12,700,40
+TW-BRA-0499,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,8.65,18.72,36,76,12,1100,32
+TW-JOG-0500,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,16.62,30.16,58,71.3,10,900,25
+TW-FLC-0501,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,19.91,39,75,73.5,13,1200,37
+TW-BLS-0502,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,30.6,70.2,135,77.3,14,500,22
+TW-CRD-0503,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,36,12,21.44,42.64,82,73.9,14,1200,37
+TW-CSH-0504,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,56,17,42.84,101.4,195,78,16,1300,22
+TW-TOP-0505,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,20,8,8.04,14.56,28,71.3,10,1500,22
+TW-POL-0506,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,10.94,21.84,42,74,11,800,23
+TW-HDY-0507,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,26,10,15.61,33.8,65,76,12,900,27
+TW-JKT-0508,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,27.93,57.2,110,74.6,13,800,39
+TW-PRK-0509,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,42.88,96.2,185,76.8,18,600,30
+TW-DNM-0510,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,17.49,40.56,78,77.6,14,600,22
+TW-CHN-0511,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,14.62,32.24,62,76.4,11,700,30
+TW-SHT-0512,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,11.93,19.76,38,68.6,12,1000,29
+TW-DRS-0513,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,20.03,44.2,85,76.4,11,1100,34
+TW-LIN-0514,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,17.56,37.44,72,75.6,15,1300,28
+TW-SWT-0515,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,27.61,62.4,120,77,18,800,23
+TW-LGG-0516,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,28,10,14.91,28.08,54,72.4,12,1100,38
+TW-BRA-0517,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,8.67,18.72,36,75.9,12,800,30
+TW-JOG-0518,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,15.44,30.16,58,73.4,10,1100,31
+TW-FLC-0519,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,19.53,39,75,74,13,1400,37
+TW-BLS-0520,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.45,70.2,135,76,14,800,40
+TW-CRD-0521,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,36,12,21.78,42.64,82,73.4,14,1100,27
+TW-CSH-0522,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,43.93,101.4,195,77.5,16,600,31
+TW-TOP-0523,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,7.32,14.56,28,73.9,10,1500,35
+TW-POL-0524,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,18,8,9.19,21.84,42,78.1,11,900,36
+TW-HDY-0525,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,26,10,14.29,33.8,65,78,12,1400,31
+TW-JKT-0526,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,27.72,57.2,110,74.8,13,1000,33
+TW-PRK-0527,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,40.98,96.2,185,77.8,18,1100,22
+TW-DNM-0528,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,17.93,40.56,78,77,14,1500,31
+TW-CHN-0529,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.5,32.24,62,75,11,1300,28
+TW-SHT-0530,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.77,19.76,38,69,12,900,24
+TW-DRS-0531,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,18.79,44.2,85,77.9,11,1300,26
+TW-LIN-0532,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.41,37.44,72,75.8,15,1000,22
+TW-SWT-0533,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,29.5,62.4,120,75.4,18,700,35
+TW-LGG-0534,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,12.07,28.08,54,77.6,12,1400,28
+TW-BRA-0535,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,11.09,18.72,36,69.2,12,1500,34
+TW-JOG-0536,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,14.82,30.16,58,74.4,10,800,29
+TW-FLC-0537,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,16.89,39,75,77.5,13,1000,24
+TW-BLS-0538,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,30.87,70.2,135,77.1,14,1400,35
+TW-CRD-0539,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,35,12,21.86,42.64,82,73.3,14,1300,35
+TW-CSH-0540,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,43.91,101.4,195,77.5,16,1500,32
+TW-TOP-0541,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,16,7,6.54,14.56,28,76.6,10,1500,34
+TW-POL-0542,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.15,21.84,42,73.5,11,700,41
+TW-HDY-0543,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,16.28,33.8,65,75,12,1400,21
+TW-JKT-0544,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,36,12,24.14,57.2,110,78.1,13,1200,31
+TW-PRK-0545,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,41.42,96.2,185,77.6,18,1200,28
+TW-DNM-0546,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.48,40.56,78,76.3,14,1300,21
+TW-CHN-0547,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16.84,32.24,62,72.8,11,900,30
+TW-SHT-0548,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,10.09,19.76,38,73.4,12,600,39
+TW-DRS-0549,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,35,12,21.32,44.2,85,74.9,11,600,41
+TW-LIN-0550,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,32,11,19.46,37.44,72,73,15,1100,27
+TW-SWT-0551,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,40,13,27.85,62.4,120,76.8,18,1400,21
+TW-LGG-0552,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,13.28,28.08,54,75.4,12,1400,24
+TW-BRA-0553,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.35,18.72,36,74,12,1200,21
+TW-JOG-0554,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,16.25,30.16,58,72,10,1400,41
+TW-FLC-0555,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,18.75,39,75,75,13,600,25
+TW-BLS-0556,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,31.24,70.2,135,76.9,14,1000,37
+TW-CRD-0557,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,28,10,18.44,42.64,82,77.5,14,1100,33
+TW-CSH-0558,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,44.94,101.4,195,77,16,1500,36
+TW-TOP-0559,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,8.46,14.56,28,69.8,10,1100,34
+TW-POL-0560,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,9.68,21.84,42,77,11,900,25
+TW-HDY-0561,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,18.19,33.8,65,72,12,1300,27
+TW-JKT-0562,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,27.03,57.2,110,75.4,13,900,25
+TW-PRK-0563,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.68,96.2,185,76.9,18,800,30
+TW-DNM-0564,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,20.86,40.56,78,73.3,14,800,30
+TW-CHN-0565,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,31,11,17.43,32.24,62,71.9,11,1400,33
+TW-SHT-0566,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,10.79,19.76,38,71.6,12,1300,29
+TW-DRS-0567,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,34,12,21.64,44.2,85,74.5,11,1300,35
+TW-LIN-0568,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16.14,37.44,72,77.6,15,500,21
+TW-SWT-0569,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,28.99,62.4,120,75.8,18,600,37
+TW-LGG-0570,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,12.48,28.08,54,76.9,12,600,38
+TW-BRA-0571,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,8.94,18.72,36,75.2,12,1000,36
+TW-JOG-0572,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,12.91,30.16,58,77.7,10,500,33
+TW-FLC-0573,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,28,10,17.37,39,75,76.8,13,1400,32
+TW-BLS-0574,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,31.12,70.2,135,76.9,14,800,36
+TW-CRD-0575,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.56,42.64,82,77.4,14,1500,36
+TW-CSH-0576,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,43.64,101.4,195,77.6,16,1300,25
+TW-TOP-0577,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,8.14,14.56,28,70.9,10,800,38
+TW-POL-0578,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.41,21.84,42,72.8,11,700,25
+TW-HDY-0579,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,18.19,33.8,65,72,12,500,35
+TW-JKT-0580,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,26.24,57.2,110,76.1,13,800,26
+TW-PRK-0581,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,59,18,43.4,96.2,185,76.5,18,1000,35
+TW-DNM-0582,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,32,11,20.49,40.56,78,73.7,14,700,38
+TW-CHN-0583,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,15.12,32.24,62,75.6,11,1300,29
+TW-SHT-0584,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,18,8,8.65,19.76,38,77.2,12,800,33
+TW-DRS-0585,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,21,44.2,85,75.3,11,700,28
+TW-LIN-0586,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,31,11,19.22,37.44,72,73.3,15,1400,29
+TW-SWT-0587,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,43,14,29.41,62.4,120,75.5,18,800,35
+TW-LGG-0588,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,12.98,28.08,54,76,12,1300,37
+TW-BRA-0589,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,8.04,18.72,36,77.7,12,1300,34
+TW-JOG-0590,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,23,9,13.14,30.16,58,77.3,10,600,33
+TW-FLC-0591,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,33,11,20,39,75,73.3,13,700,26
+TW-BLS-0592,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.39,70.2,135,76,14,1300,41
+TW-CRD-0593,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,30,11,18.87,42.64,82,77,14,1400,22
+TW-CSH-0594,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,45.98,101.4,195,76.4,16,700,38
+TW-TOP-0595,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,7.92,14.56,28,71.7,10,1300,26
+TW-POL-0596,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.76,21.84,42,72,11,800,23
+TW-HDY-0597,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,14.78,33.8,65,77.3,12,1000,29
+TW-JKT-0598,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,24.49,57.2,110,77.7,13,800,22
+TW-PRK-0599,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,42.3,96.2,185,77.1,18,600,31
+TW-DNM-0600,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,28,10,17.61,40.56,78,77.4,14,1100,24
+TW-CHN-0601,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,13.89,32.24,62,77.6,11,1200,39
+TW-SHT-0602,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,10.55,19.76,38,72.2,12,500,25
+TW-DRS-0603,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,20.91,44.2,85,75.4,11,1000,34
+TW-LIN-0604,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,19.02,37.44,72,73.6,15,600,35
+TW-SWT-0605,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,29.96,62.4,120,75,18,700,23
+TW-LGG-0606,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,14.6,28.08,54,73,12,600,41
+TW-BRA-0607,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.25,18.72,36,71.5,12,700,39
+TW-JOG-0608,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,13.7,30.16,58,76.4,10,1000,32
+TW-FLC-0609,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,17.71,39,75,76.4,13,1500,23
+TW-BLS-0610,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,30.85,70.2,135,77.1,14,1400,34
+TW-CRD-0611,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,20.51,42.64,82,75,14,800,26
+TW-CSH-0612,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,58,18,43.44,101.4,195,77.7,16,1000,30
+TW-TOP-0613,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,7.05,14.56,28,74.8,10,900,23
+TW-POL-0614,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,11.34,21.84,42,73,11,1100,23
+TW-HDY-0615,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,26,10,16.07,33.8,65,75.3,12,1200,26
+TW-JKT-0616,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,25.48,57.2,110,76.8,13,1400,33
+TW-PRK-0617,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,60,18,43.65,96.2,185,76.4,18,1200,21
+TW-DNM-0618,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,28,10,17.6,40.56,78,77.4,14,1200,33
+TW-CHN-0619,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,24,9,14.66,32.24,62,76.4,11,700,41
+TW-SHT-0620,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,18,8,8.52,19.76,38,77.6,12,800,37
+TW-DRS-0621,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,21.91,44.2,85,74.2,11,1500,27
+TW-LIN-0622,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,33,11,19.61,37.44,72,72.8,15,500,36
+TW-SWT-0623,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,29.01,62.4,120,75.8,18,900,28
+TW-LGG-0624,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,14.19,28.08,54,73.7,12,900,28
+TW-BRA-0625,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.02,18.72,36,74.9,12,600,34
+TW-JOG-0626,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,24,9,12.92,30.16,58,77.7,10,1200,42
+TW-FLC-0627,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,33,11,19.69,39,75,73.7,13,900,31
+TW-BLS-0628,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,30.31,70.2,135,77.5,14,1400,41
+TW-CRD-0629,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,30,11,18.21,42.64,82,77.8,14,500,36
+TW-CSH-0630,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,42.77,101.4,195,78.1,16,800,22
+TW-TOP-0631,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,21,8,9.45,14.56,28,66.3,10,1100,33
+TW-POL-0632,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,25,9,12.16,21.84,42,71,11,900,26
+TW-HDY-0633,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,18.02,33.8,65,72.3,12,1000,23
+TW-JKT-0634,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,25.85,57.2,110,76.5,13,700,27
+TW-PRK-0635,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.63,96.2,185,77,18,1300,40
+TW-DNM-0636,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.21,40.56,78,76.7,14,1200,23
+TW-CHN-0637,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,14.71,32.24,62,76.3,11,800,40
+TW-SHT-0638,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,10.36,19.76,38,72.7,12,1400,25
+TW-DRS-0639,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,21.31,44.2,85,74.9,11,1100,37
+TW-LIN-0640,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.63,37.44,72,75.5,15,900,27
+TW-SWT-0641,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,30.16,62.4,120,74.9,18,1100,36
+TW-LGG-0642,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,12.18,28.08,54,77.4,12,900,39
+TW-BRA-0643,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,18,8,9.06,18.72,36,74.8,12,1100,24
+TW-JOG-0644,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,12.68,30.16,58,78.1,10,900,35
+TW-FLC-0645,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,17.23,39,75,77,13,800,34
+TW-BLS-0646,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,32.88,70.2,135,75.6,14,1000,33
+TW-CRD-0647,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.67,42.64,82,77.2,14,900,35
+TW-CSH-0648,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,45.44,101.4,195,76.7,16,1400,34
+TW-TOP-0649,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,22,9,9.53,14.56,28,66,10,800,28
+TW-POL-0650,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,20,8,10.25,21.84,42,75.6,11,1500,30
+TW-HDY-0651,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.6,33.8,65,72.9,12,1100,39
+TW-JKT-0652,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,27.58,57.2,110,74.9,13,900,26
+TW-PRK-0653,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,42.43,96.2,185,77.1,18,700,41
+TW-DNM-0654,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,28,10,17.19,40.56,78,78,14,1200,31
+TW-CHN-0655,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,30,11,17.48,32.24,62,71.8,11,900,31
+TW-SHT-0656,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.47,19.76,38,69.8,12,1300,32
+TW-DRS-0657,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,21.2,44.2,85,75.1,11,1500,24
+TW-LIN-0658,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,17.32,37.44,72,75.9,15,800,22
+TW-SWT-0659,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,43,14,29.28,62.4,120,75.6,18,1000,31
+TW-LGG-0660,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,13.82,28.08,54,74.4,12,1200,35
+TW-BRA-0661,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,11.2,18.72,36,68.9,12,1400,34
+TW-JOG-0662,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,15.22,30.16,58,73.8,10,700,32
+TW-FLC-0663,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,18.82,39,75,74.9,13,1200,22
+TW-BLS-0664,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.73,70.2,135,75.8,14,600,40
+TW-CRD-0665,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,19.23,42.64,82,76.5,14,900,21
+TW-CSH-0666,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,43.06,101.4,195,77.9,16,1400,33
+TW-TOP-0667,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.63,14.56,28,76.3,10,1100,22
+TW-POL-0668,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,24,9,11.91,21.84,42,71.6,11,500,25
+TW-HDY-0669,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,17.97,33.8,65,72.4,12,800,25
+TW-JKT-0670,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,27.51,57.2,110,75,13,700,35
+TW-PRK-0671,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,40.58,96.2,185,78.1,18,1400,29
+TW-DNM-0672,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,18.91,40.56,78,75.8,14,600,41
+TW-CHN-0673,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,29,10,17.41,32.24,62,71.9,11,1100,41
+TW-SHT-0674,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,10.21,19.76,38,73.1,12,1100,38
+TW-DRS-0675,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,36,12,22.35,44.2,85,73.7,11,900,23
+TW-LIN-0676,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.94,37.44,72,77.9,15,1100,35
+TW-SWT-0677,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,30.07,62.4,120,74.9,18,700,33
+TW-LGG-0678,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,12.44,28.08,54,77,12,1300,29
+TW-BRA-0679,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.82,18.72,36,72.7,12,900,38
+TW-JOG-0680,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,15.17,30.16,58,73.8,10,600,26
+TW-FLC-0681,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,17.96,39,75,76.1,13,500,22
+TW-BLS-0682,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.04,70.2,135,76.3,14,1000,23
+TW-CRD-0683,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.38,42.64,82,77.6,14,1000,35
+TW-CSH-0684,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,61,18,45.61,101.4,195,76.6,16,800,28
+TW-TOP-0685,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,20,8,9.83,14.56,28,64.9,10,900,28
+TW-POL-0686,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,25,9,12.43,21.84,42,70.4,11,900,26
+TW-HDY-0687,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,15.57,33.8,65,76,12,800,41
+TW-JKT-0688,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,27.84,57.2,110,74.7,13,1200,39
+TW-PRK-0689,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,40.6,96.2,185,78.1,18,600,26
+TW-DNM-0690,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,17.18,40.56,78,78,14,900,42
+TW-CHN-0691,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,14.42,32.24,62,76.7,11,1300,30
+TW-SHT-0692,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.53,19.76,38,74.9,12,1000,28
+TW-DRS-0693,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,19.85,44.2,85,76.6,11,700,27
+TW-LIN-0694,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,32,11,18.56,37.44,72,74.2,15,1500,37
+TW-SWT-0695,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,28.14,62.4,120,76.5,18,1200,35
+TW-LGG-0696,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,11.81,28.08,54,78.1,12,1100,34
+TW-BRA-0697,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,9.59,18.72,36,73.4,12,1000,28
+TW-JOG-0698,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,13.47,30.16,58,76.8,10,700,31
+TW-FLC-0699,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,18.19,39,75,75.7,13,900,30
+TW-BLS-0700,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,32.25,70.2,135,76.1,14,1000,40
+TW-CRD-0701,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,18.21,42.64,82,77.8,14,700,37
+TW-CSH-0702,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,44.16,101.4,195,77.4,16,1400,31
+TW-TOP-0703,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,22,9,10.07,14.56,28,64,10,1200,26
+TW-POL-0704,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,24,9,11.7,21.84,42,72.1,11,700,32
+TW-HDY-0705,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,14.54,33.8,65,77.6,12,1400,30
+TW-JKT-0706,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,27.54,57.2,110,75,13,900,21
+TW-PRK-0707,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.85,96.2,185,76.8,18,1200,38
+TW-DNM-0708,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,34,12,19.72,40.56,78,74.7,14,600,28
+TW-CHN-0709,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,14.4,32.24,62,76.8,11,500,38
+TW-SHT-0710,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,8.98,19.76,38,76.4,12,600,32
+TW-DRS-0711,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,34,12,21.13,44.2,85,75.1,11,800,39
+TW-LIN-0712,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,27,10,16.6,37.44,72,76.9,15,1400,30
+TW-SWT-0713,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,26.7,62.4,120,77.8,18,1200,37
+TW-LGG-0714,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,12.96,28.08,54,76,12,800,31
+TW-BRA-0715,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,8.22,18.72,36,77.2,12,1300,42
+TW-JOG-0716,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,15.86,30.16,58,72.7,10,600,36
+TW-FLC-0717,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,18.96,39,75,74.7,13,1100,35
+TW-BLS-0718,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.1,70.2,135,76.2,14,700,25
+TW-CRD-0719,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,21.49,42.64,82,73.8,14,800,26
+TW-CSH-0720,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,46.18,101.4,195,76.3,16,800,29
+TW-TOP-0721,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,17,7,6.95,14.56,28,75.2,10,600,37
+TW-POL-0722,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,11.72,21.84,42,72.1,11,700,41
+TW-HDY-0723,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,31,11,18.09,33.8,65,72.2,12,1300,39
+TW-JKT-0724,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,35,12,24.08,57.2,110,78.1,13,800,24
+TW-PRK-0725,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,58,18,43.69,96.2,185,76.4,18,900,35
+TW-DNM-0726,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,32,11,19.9,40.56,78,74.5,14,1200,30
+TW-CHN-0727,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,25,9,14.71,32.24,62,76.3,11,1100,36
+TW-SHT-0728,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,11.19,19.76,38,70.6,12,1400,37
+TW-DRS-0729,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,19.25,44.2,85,77.4,11,800,24
+TW-LIN-0730,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,33,11,19.36,37.44,72,73.1,15,800,33
+TW-SWT-0731,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,30.18,62.4,120,74.8,18,1500,34
+TW-LGG-0732,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,13.7,28.08,54,74.6,12,800,36
+TW-BRA-0733,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,10.94,18.72,36,69.6,12,1000,28
+TW-JOG-0734,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,16.36,30.16,58,71.8,10,1200,25
+TW-FLC-0735,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,17.78,39,75,76.3,13,1200,22
+TW-BLS-0736,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,31.16,70.2,135,76.9,14,1500,27
+TW-CRD-0737,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.73,42.64,82,77.2,14,600,34
+TW-CSH-0738,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,43.79,101.4,195,77.5,16,700,35
+TW-TOP-0739,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.18,14.56,28,77.9,10,800,31
+TW-POL-0740,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,24,9,11.75,21.84,42,72,11,700,38
+TW-HDY-0741,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,16.8,33.8,65,74.2,12,800,33
+TW-JKT-0742,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,25.61,57.2,110,76.7,13,1200,23
+TW-PRK-0743,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,44.09,96.2,185,76.2,18,700,24
+TW-DNM-0744,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,18.29,40.56,78,76.6,14,1000,24
+TW-CHN-0745,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.46,32.24,62,75.1,11,900,41
+TW-SHT-0746,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.77,19.76,38,74.3,12,800,30
+TW-DRS-0747,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,34,12,21.23,44.2,85,75,11,700,30
+TW-LIN-0748,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,16.63,37.44,72,76.9,15,700,38
+TW-SWT-0749,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,27.86,62.4,120,76.8,18,1100,31
+TW-LGG-0750,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,15.24,28.08,54,71.8,12,1100,31
+TW-BRA-0751,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,17,7,8.24,18.72,36,77.1,12,500,29
+TW-JOG-0752,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,29,10,16.41,30.16,58,71.7,10,1000,40
+TW-FLC-0753,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,17.71,39,75,76.4,13,1000,41
+TW-BLS-0754,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,30.22,70.2,135,77.6,14,500,24
+TW-CRD-0755,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.71,42.64,82,77.2,14,600,37
+TW-CSH-0756,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,44.18,101.4,195,77.3,16,1200,28
+TW-TOP-0757,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,7,14.56,28,75,10,600,31
+TW-POL-0758,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,19,8,9.18,21.84,42,78.1,11,700,36
+TW-HDY-0759,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,15.2,33.8,65,76.6,12,1200,36
+TW-JKT-0760,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,24.45,57.2,110,77.8,13,900,26
+TW-PRK-0761,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,40.86,96.2,185,77.9,18,1300,36
+TW-DNM-0762,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,18.14,40.56,78,76.7,14,800,39
+TW-CHN-0763,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.03,32.24,62,72.5,11,700,27
+TW-SHT-0764,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,12.04,19.76,38,68.3,12,900,40
+TW-DRS-0765,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,36,12,22.31,44.2,85,73.8,11,1100,40
+TW-LIN-0766,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,27,10,15.8,37.44,72,78.1,15,700,36
+TW-SWT-0767,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,29.49,62.4,120,75.4,18,1100,42
+TW-LGG-0768,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,15.67,28.08,54,71,12,1000,25
+TW-BRA-0769,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,18,8,8.53,18.72,36,76.3,12,1100,23
+TW-JOG-0770,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,23,9,12.74,30.16,58,78,10,1000,36
+TW-FLC-0771,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,18.48,39,75,75.4,13,1400,34
+TW-BLS-0772,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,42,14,30.44,70.2,135,77.5,14,500,31
+TW-CRD-0773,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,18.12,42.64,82,77.9,14,900,35
+TW-CSH-0774,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,61,18,45.19,101.4,195,76.8,16,1300,35
+TW-TOP-0775,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.92,14.56,28,75.3,10,1000,40
+TW-POL-0776,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,12.2,21.84,42,71,11,1300,38
+TW-HDY-0777,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.19,33.8,65,73.6,12,600,41
+TW-JKT-0778,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,25.02,57.2,110,77.3,13,1100,26
+TW-PRK-0779,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,54,17,40.47,96.2,185,78.1,18,1000,25
+TW-DNM-0780,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,17.9,40.56,78,77.1,14,1000,36
+TW-CHN-0781,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.1,32.24,62,75.6,11,1300,26
+TW-SHT-0782,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,10.33,19.76,38,72.8,12,1400,37
+TW-DRS-0783,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,18.98,44.2,85,77.7,11,700,31
+TW-LIN-0784,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,27,10,16.32,37.44,72,77.3,15,700,35
+TW-SWT-0785,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,26.59,62.4,120,77.8,18,1100,31
+TW-LGG-0786,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,13.77,28.08,54,74.5,12,1400,32
+TW-BRA-0787,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,8.86,18.72,36,75.4,12,1000,34
+TW-JOG-0788,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,16.22,30.16,58,72,10,1200,37
+TW-FLC-0789,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,16.95,39,75,77.4,13,1000,22
+TW-BLS-0790,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,46,15,33.24,70.2,135,75.4,14,1100,30
+TW-CRD-0791,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,20.86,42.64,82,74.6,14,800,42
+TW-CSH-0792,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,61,18,44.86,101.4,195,77,16,1100,30
+TW-TOP-0793,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,15,7,6.35,14.56,28,77.3,10,1000,27
+TW-POL-0794,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,24,9,12.54,21.84,42,70.1,11,1000,33
+TW-HDY-0795,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.26,33.8,65,73.4,12,700,42
+TW-JKT-0796,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,25.66,57.2,110,76.7,13,800,38
+TW-PRK-0797,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,58,18,41.77,96.2,185,77.4,18,1300,36
+TW-DNM-0798,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.29,40.56,78,76.6,14,700,32
+TW-CHN-0799,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,29,10,17.24,32.24,62,72.2,11,1200,31
+TW-SHT-0800,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,10.78,19.76,38,71.6,12,1300,23
+TW-DRS-0801,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,21.38,44.2,85,74.8,11,800,26
+TW-LIN-0802,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,18.62,37.44,72,74.1,15,900,32
+TW-SWT-0803,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,26.27,62.4,120,78.1,18,1000,34
+TW-LGG-0804,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.86,28.08,54,78,12,900,29
+TW-BRA-0805,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.16,18.72,36,74.6,12,900,42
+TW-JOG-0806,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,14.82,30.16,58,74.4,10,1200,24
+TW-FLC-0807,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,18.6,39,75,75.2,13,600,26
+TW-BLS-0808,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,30.96,70.2,135,77.1,14,1100,30
+TW-CRD-0809,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,30,11,19.58,42.64,82,76.1,14,1100,29
+TW-CSH-0810,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,44.83,101.4,195,77,16,500,38
+TW-TOP-0811,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,6.95,14.56,28,75.2,10,1200,21
+TW-POL-0812,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.26,21.84,42,73.2,11,1200,30
+TW-HDY-0813,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,17.36,33.8,65,73.3,12,1300,26
+TW-JKT-0814,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,27.57,57.2,110,74.9,13,600,30
+TW-PRK-0815,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,54,17,41.91,96.2,185,77.3,18,600,21
+TW-DNM-0816,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,18.65,40.56,78,76.1,14,1200,36
+TW-CHN-0817,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,17.18,32.24,62,72.3,11,1100,42
+TW-SHT-0818,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.48,19.76,38,72.4,12,1100,28
+TW-DRS-0819,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,35,12,22.26,44.2,85,73.8,11,1200,33
+TW-LIN-0820,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,27,10,16.97,37.44,72,76.4,15,900,25
+TW-SWT-0821,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,26.66,62.4,120,77.8,18,900,40
+TW-LGG-0822,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,12.12,28.08,54,77.6,12,1500,35
+TW-BRA-0823,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.17,18.72,36,71.7,12,700,35
+TW-JOG-0824,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,14.46,30.16,58,75.1,10,1000,41
+TW-FLC-0825,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,18.47,39,75,75.4,13,1500,29
+TW-BLS-0826,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,30.78,70.2,135,77.2,14,800,39
+TW-CRD-0827,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,19.85,42.64,82,75.8,14,1500,31
+TW-CSH-0828,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,46.38,101.4,195,76.2,16,1300,24
+TW-TOP-0829,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,9.04,14.56,28,67.7,10,1500,29
+TW-POL-0830,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,11.89,21.84,42,71.7,11,1100,22
+TW-HDY-0831,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,15.82,33.8,65,75.7,12,900,29
+TW-JKT-0832,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,26.17,57.2,110,76.2,13,600,37
+TW-PRK-0833,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,42.12,96.2,185,77.2,18,1200,37
+TW-DNM-0834,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,33,11,19.98,40.56,78,74.4,14,900,41
+TW-CHN-0835,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,17.5,32.24,62,71.8,11,800,21
+TW-SHT-0836,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,10.59,19.76,38,72.1,12,1300,28
+TW-DRS-0837,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,19.56,44.2,85,77,11,1000,32
+TW-LIN-0838,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16.81,37.44,72,76.7,15,1300,40
+TW-SWT-0839,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,28.85,62.4,120,76,18,800,41
+TW-LGG-0840,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,28,10,15.4,28.08,54,71.5,12,1100,40
+TW-BRA-0841,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.53,18.72,36,70.8,12,800,25
+TW-JOG-0842,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,13.74,30.16,58,76.3,10,1300,30
+TW-FLC-0843,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,33,11,20.05,39,75,73.3,13,1400,22
+TW-BLS-0844,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,33.13,70.2,135,75.5,14,1100,30
+TW-CRD-0845,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,34,12,21.7,42.64,82,73.5,14,700,23
+TW-CSH-0846,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,46.55,101.4,195,76.1,16,1400,31
+TW-TOP-0847,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.37,14.56,28,77.3,10,700,39
+TW-POL-0848,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,9.95,21.84,42,76.3,11,1500,29
+TW-HDY-0849,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,17.21,33.8,65,73.5,12,1500,32
+TW-JKT-0850,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,39,13,26.6,57.2,110,75.8,13,1200,39
+TW-PRK-0851,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,42.05,96.2,185,77.3,18,1200,42
+TW-DNM-0852,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,18.08,40.56,78,76.8,14,800,40
+TW-CHN-0853,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,24,9,14.25,32.24,62,77,11,1300,25
+TW-SHT-0854,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,11.27,19.76,38,70.3,12,1300,37
+TW-DRS-0855,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,30,11,18.88,44.2,85,77.8,11,1000,28
+TW-LIN-0856,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,31,11,17.5,37.44,72,75.7,15,1100,32
+TW-SWT-0857,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,26.48,62.4,120,77.9,18,1100,36
+TW-LGG-0858,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,28,10,14.97,28.08,54,72.3,12,1000,32
+TW-BRA-0859,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.78,18.72,36,67.3,12,1000,32
+TW-JOG-0860,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,13.48,30.16,58,76.8,10,700,40
+TW-FLC-0861,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,32,11,18.31,39,75,75.6,13,700,28
+TW-BLS-0862,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,31.11,70.2,135,77,14,800,23
+TW-CRD-0863,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,29,10,17.93,42.64,82,78.1,14,700,32
+TW-CSH-0864,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,46.08,101.4,195,76.4,16,1300,35
+TW-TOP-0865,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,20,8,8.75,14.56,28,68.8,10,800,29
+TW-POL-0866,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,11.03,21.84,42,73.7,11,1400,22
+TW-HDY-0867,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.67,33.8,65,72.8,12,1000,24
+TW-JKT-0868,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,42,14,27.03,57.2,110,75.4,13,1200,22
+TW-PRK-0869,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,59,18,43.86,96.2,185,76.3,18,1200,32
+TW-DNM-0870,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,19.7,40.56,78,74.7,14,800,42
+TW-CHN-0871,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,13.89,32.24,62,77.6,11,800,35
+TW-SHT-0872,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,9.99,19.76,38,73.7,12,1300,37
+TW-DRS-0873,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,19.14,44.2,85,77.5,11,1400,37
+TW-LIN-0874,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.81,37.44,72,78,15,1000,36
+TW-SWT-0875,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,27.13,62.4,120,77.4,18,600,29
+TW-LGG-0876,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,12.22,28.08,54,77.4,12,500,35
+TW-BRA-0877,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,8.66,18.72,36,75.9,12,1200,37
+TW-JOG-0878,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,14.29,30.16,58,75.4,10,700,39
+TW-FLC-0879,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,28,10,17.15,39,75,77.1,13,900,42
+TW-BLS-0880,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,32.85,70.2,135,75.7,14,1000,40
+TW-CRD-0881,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.2,42.64,82,77.8,14,800,25
+TW-CSH-0882,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,60,18,45.83,101.4,195,76.5,16,500,40
+TW-TOP-0883,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,6.85,14.56,28,75.5,10,600,37
+TW-POL-0884,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,9.95,21.84,42,76.3,11,900,28
+TW-HDY-0885,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,14.59,33.8,65,77.6,12,1400,29
+TW-JKT-0886,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,40,13,26.49,57.2,110,75.9,13,1000,22
+TW-PRK-0887,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,59,18,43.52,96.2,185,76.5,18,700,21
+TW-DNM-0888,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,17.4,40.56,78,77.7,14,700,23
+TW-CHN-0889,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,15.29,32.24,62,75.3,11,600,41
+TW-SHT-0890,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,11.62,19.76,38,69.4,12,1300,40
+TW-DRS-0891,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,19.31,44.2,85,77.3,11,1500,39
+TW-LIN-0892,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,31,11,18.72,37.44,72,74,15,1000,40
+TW-SWT-0893,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,44,14,29.76,62.4,120,75.2,18,500,26
+TW-LGG-0894,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,14.2,28.08,54,73.7,12,1400,34
+TW-BRA-0895,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,9.42,18.72,36,73.8,12,1400,29
+TW-JOG-0896,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,13.34,30.16,58,77,10,1300,38
+TW-FLC-0897,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,27,10,16.84,39,75,77.5,13,800,22
+TW-BLS-0898,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.43,70.2,135,76,14,1400,25
+TW-CRD-0899,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,18.73,42.64,82,77.2,14,1300,22
+TW-CSH-0900,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,42.95,101.4,195,78,16,700,41
+TW-TOP-0901,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,21,8,9.84,14.56,28,64.9,10,1200,24
+TW-POL-0902,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,10.54,21.84,42,74.9,11,1100,34
+TW-HDY-0903,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,24,9,14.26,33.8,65,78.1,12,700,29
+TW-JKT-0904,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,26.94,57.2,110,75.5,13,1500,29
+TW-PRK-0905,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,43.17,96.2,185,76.7,18,600,27
+TW-DNM-0906,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,18.15,40.56,78,76.7,14,1300,30
+TW-CHN-0907,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,13.95,32.24,62,77.5,11,700,35
+TW-SHT-0908,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,24,9,11.59,19.76,38,69.5,12,900,22
+TW-DRS-0909,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,21.81,44.2,85,74.3,11,1200,25
+TW-LIN-0910,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,18.17,37.44,72,74.8,15,1000,39
+TW-SWT-0911,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,28.82,62.4,120,76,18,700,32
+TW-LGG-0912,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,13.35,28.08,54,75.3,12,600,30
+TW-BRA-0913,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,18,8,8.51,18.72,36,76.4,12,700,25
+TW-JOG-0914,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,27,10,15.13,30.16,58,73.9,10,800,37
+TW-FLC-0915,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,19.13,39,75,74.5,13,1300,26
+TW-BLS-0916,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,47,15,32.5,70.2,135,75.9,14,800,28
+TW-CRD-0917,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,19.71,42.64,82,76,14,1000,32
+TW-CSH-0918,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,58,18,43.5,101.4,195,77.7,16,1300,37
+TW-TOP-0919,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,8.65,14.56,28,69.1,10,1300,38
+TW-POL-0920,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,24,9,12.82,21.84,42,69.5,11,700,26
+TW-HDY-0921,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,29,10,15.95,33.8,65,75.5,12,1100,24
+TW-JKT-0922,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,26.45,57.2,110,76,13,1400,23
+TW-PRK-0923,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,58,18,43.18,96.2,185,76.7,18,700,24
+TW-DNM-0924,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,33,11,20.82,40.56,78,73.3,14,1200,36
+TW-CHN-0925,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,24,9,14.09,32.24,62,77.3,11,1300,24
+TW-SHT-0926,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,8.57,19.76,38,77.4,12,1100,21
+TW-DRS-0927,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,32,11,19.91,44.2,85,76.6,11,600,26
+TW-LIN-0928,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,18.48,37.44,72,74.3,15,1300,32
+TW-SWT-0929,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,42,14,29.41,62.4,120,75.5,18,1300,34
+TW-LGG-0930,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,12.7,28.08,54,76.5,12,800,40
+TW-BRA-0931,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,11.85,18.72,36,67.1,12,1100,32
+TW-JOG-0932,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,29,10,16.25,30.16,58,72,10,600,40
+TW-FLC-0933,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,28,10,16.43,39,75,78.1,13,1500,32
+TW-BLS-0934,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,30.54,70.2,135,77.4,14,1000,25
+TW-CRD-0935,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,34,12,19.82,42.64,82,75.8,14,1000,22
+TW-CSH-0936,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,46.01,101.4,195,76.4,16,1100,37
+TW-TOP-0937,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,8.2,14.56,28,70.7,10,1100,38
+TW-POL-0938,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,19,8,9.26,21.84,42,78,11,1200,39
+TW-HDY-0939,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,15.04,33.8,65,76.9,12,1100,32
+TW-JKT-0940,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,26.48,57.2,110,75.9,13,600,26
+TW-PRK-0941,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.79,96.2,185,76.9,18,700,39
+TW-DNM-0942,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,17.79,40.56,78,77.2,14,600,29
+TW-CHN-0943,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,14.12,32.24,62,77.2,11,1500,26
+TW-SHT-0944,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.28,19.76,38,72.9,12,600,29
+TW-DRS-0945,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,35,12,20.99,44.2,85,75.3,11,600,27
+TW-LIN-0946,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,16.1,37.44,72,77.6,15,700,21
+TW-SWT-0947,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,26.59,62.4,120,77.8,18,1200,28
+TW-LGG-0948,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,25,9,14.76,28.08,54,72.7,12,1000,40
+TW-BRA-0949,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.42,18.72,36,71.1,12,500,39
+TW-JOG-0950,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,14.61,30.16,58,74.8,10,700,22
+TW-FLC-0951,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,17.93,39,75,76.1,13,900,24
+TW-BLS-0952,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,31.17,70.2,135,76.9,14,1400,24
+TW-CRD-0953,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,35,12,21.2,42.64,82,74.1,14,500,23
+TW-CSH-0954,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,56,17,43.09,101.4,195,77.9,16,1100,23
+TW-TOP-0955,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,16,7,6.12,14.56,28,78.1,10,800,32
+TW-POL-0956,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,23,9,11.96,21.84,42,71.5,11,1100,27
+TW-HDY-0957,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,31,11,17.95,33.8,65,72.4,12,1200,35
+TW-JKT-0958,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,24.18,57.2,110,78,13,1100,32
+TW-PRK-0959,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,42.14,96.2,185,77.2,18,1300,30
+TW-DNM-0960,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,32,11,19.18,40.56,78,75.4,14,1200,26
+TW-CHN-0961,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,30,11,16.93,32.24,62,72.7,11,900,38
+TW-SHT-0962,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.28,19.76,38,72.9,12,900,26
+TW-DRS-0963,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,29,10,18.89,44.2,85,77.8,11,700,23
+TW-LIN-0964,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,18.73,37.44,72,74,15,500,35
+TW-SWT-0965,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,40,13,28.37,62.4,120,76.4,18,500,40
+TW-LGG-0966,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,13.58,28.08,54,74.9,12,800,30
+TW-BRA-0967,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,11.01,18.72,36,69.4,12,1500,35
+TW-JOG-0968,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,29,10,15.93,30.16,58,72.5,10,1100,39
+TW-FLC-0969,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,17.17,39,75,77.1,13,1100,39
+TW-BLS-0970,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,43,14,30.97,70.2,135,77.1,14,900,37
+TW-CRD-0971,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,34,12,19.78,42.64,82,75.9,14,1400,30
+TW-CSH-0972,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,56,17,42.75,101.4,195,78.1,16,900,34
+TW-TOP-0973,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,20,8,7.45,14.56,28,73.4,10,1300,25
+TW-POL-0974,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,19,8,9.92,21.84,42,76.4,11,800,23
+TW-HDY-0975,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,30,11,17.44,33.8,65,73.2,12,1200,36
+TW-JKT-0976,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,24.44,57.2,110,77.8,13,700,37
+TW-PRK-0977,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,57,17,42.82,96.2,185,76.9,18,1400,34
+TW-DNM-0978,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,18.34,40.56,78,76.5,14,1200,30
+TW-CHN-0979,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,16.28,32.24,62,73.7,11,600,29
+TW-SHT-0980,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,18,8,8.38,19.76,38,77.9,12,800,27
+TW-DRS-0981,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,31,11,19.55,44.2,85,77,11,1400,41
+TW-LIN-0982,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,18.22,37.44,72,74.7,15,1400,34
+TW-SWT-0983,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,26.73,62.4,120,77.7,18,1100,27
+TW-LGG-0984,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,12.11,28.08,54,77.6,12,1400,28
+TW-BRA-0985,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,8.51,18.72,36,76.4,12,700,37
+TW-JOG-0986,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,16.51,30.16,58,71.5,10,1200,23
+TW-FLC-0987,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,29,10,17.94,39,75,76.1,13,600,35
+TW-BLS-0988,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,30.32,70.2,135,77.5,14,600,39
+TW-CRD-0989,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,19.78,42.64,82,75.9,14,900,34
+TW-CSH-0990,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,45.78,101.4,195,76.5,16,1000,37
+TW-TOP-0991,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,19,8,9.04,14.56,28,67.7,10,800,35
+TW-POL-0992,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,11.12,21.84,42,73.5,11,700,29
+TW-HDY-0993,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,17.73,33.8,65,72.7,12,1500,24
+TW-JKT-0994,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,27.91,57.2,110,74.6,13,800,32
+TW-PRK-0995,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,59,18,44.09,96.2,185,76.2,18,700,38
+TW-DNM-0996,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,29,10,19.27,40.56,78,75.3,14,500,32
+TW-CHN-0997,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,28,10,15.17,32.24,62,75.5,11,1500,30
+TW-SHT-0998,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,11.03,19.76,38,71,12,1500,32
+TW-DRS-0999,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,21.38,44.2,85,74.8,11,1400,30
+TW-LIN-1000,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,18.91,37.44,72,73.7,15,1000,37
+TW-SWT-1001,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,43,14,29.92,62.4,120,75.1,18,1100,36
+TW-LGG-1002,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,13.89,28.08,54,74.3,12,1300,39
+TW-BRA-1003,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,10.11,18.72,36,71.9,12,800,32
+TW-JOG-1004,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,29,10,16.1,30.16,58,72.2,10,600,41
+TW-FLC-1005,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,33,11,19.13,39,75,74.5,13,1000,41
+TW-BLS-1006,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,47,15,32.54,70.2,135,75.9,14,1300,42
+TW-CRD-1007,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,19.78,42.64,82,75.9,14,700,24
+TW-CSH-1008,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,46.43,101.4,195,76.2,16,1200,34
+TW-TOP-1009,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,21,8,8.42,14.56,28,69.9,10,1400,42
+TW-POL-1010,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,24,9,12.62,21.84,42,70,11,1300,37
+TW-HDY-1011,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,28,10,16.24,33.8,65,75,12,700,21
+TW-JKT-1012,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,37,12,25.21,57.2,110,77.1,13,1100,41
+TW-PRK-1013,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,55,17,42.91,96.2,185,76.8,18,1200,39
+TW-DNM-1014,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,30,11,18.66,40.56,78,76.1,14,800,27
+TW-CHN-1015,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,16.34,32.24,62,73.6,11,1100,34
+TW-SHT-1016,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,10.74,19.76,38,71.7,12,1300,37
+TW-DRS-1017,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,20.57,44.2,85,75.8,11,1300,39
+TW-LIN-1018,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,17.41,37.44,72,75.8,15,1000,25
+TW-SWT-1019,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,38,13,26.3,62.4,120,78.1,18,1000,40
+TW-LGG-1020,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,14.46,28.08,54,73.2,12,900,24
+TW-BRA-1021,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,20,8,8.19,18.72,36,77.3,12,1200,35
+TW-JOG-1022,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,25,9,13.19,30.16,58,77.3,10,1200,35
+TW-FLC-1023,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,31,11,18.79,39,75,74.9,13,700,38
+TW-BLS-1024,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,41,13,29.95,70.2,135,77.8,14,1300,22
+TW-CRD-1025,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,32,11,20.62,42.64,82,74.9,14,500,35
+TW-CSH-1026,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,44.23,101.4,195,77.3,16,1300,35
+TW-TOP-1027,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.53,14.56,28,76.7,10,500,26
+TW-POL-1028,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,21,8,11.39,21.84,42,72.9,11,1000,27
+TW-HDY-1029,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,16.74,33.8,65,74.2,12,600,40
+TW-JKT-1030,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,27.6,57.2,110,74.9,13,600,29
+TW-PRK-1031,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,43.4,96.2,185,76.5,18,1200,36
+TW-DNM-1032,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,32,11,20.12,40.56,78,74.2,14,1200,30
+TW-CHN-1033,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,27,10,15.53,32.24,62,75,11,800,33
+TW-SHT-1034,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,19,8,9.6,19.76,38,74.7,12,800,21
+TW-DRS-1035,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,33,11,21.63,44.2,85,74.6,11,1200,25
+TW-LIN-1036,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,18.54,37.44,72,74.3,15,1200,34
+TW-SWT-1037,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,41,13,27.69,62.4,120,76.9,18,1200,29
+TW-LGG-1038,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,14.36,28.08,54,73.4,12,900,33
+TW-BRA-1039,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,22,9,11.83,18.72,36,67.1,12,600,34
+TW-JOG-1040,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,23,9,12.82,30.16,58,77.9,10,700,29
+TW-FLC-1041,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,28,10,16.94,39,75,77.4,13,1000,26
+TW-BLS-1042,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,44,14,32.28,70.2,135,76.1,14,1500,26
+TW-CRD-1043,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,35,12,21.43,42.64,82,73.9,14,1300,39
+TW-CSH-1044,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,57,17,44.16,101.4,195,77.4,16,900,36
+TW-TOP-1045,"Tops & Tees Navy S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,18,8,6.59,14.56,28,76.5,10,1300,26
+TW-POL-1046,"Polos & Henleys Heather Grey M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,25,9,12.03,21.84,42,71.4,11,1500,33
+TW-HDY-1047,"Hoodies & Sweatshirts Optical White L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,15.54,33.8,65,76.1,12,1100,24
+TW-JKT-1048,"Jackets & Windbreakers Olive Green XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,41,13,27.55,57.2,110,75,13,1500,40
+TW-PRK-1049,"Down & Winter Parkas Burgundy XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,59,18,44.04,96.2,185,76.2,18,1500,27
+TW-DNM-1050,"Denim Jeans (Slim/Straight) Camel Tan XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,20.26,40.56,78,74,14,500,37
+TW-CHN-1051,"Chinos & Casual Trousers Sage Blue S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,26,10,14.96,32.24,62,75.9,11,700,24
+TW-SHT-1052,"Shorts & Swimwear Dusty Rose M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.72,19.76,38,69.2,12,500,25
+TW-DRS-1053,"Dresses & Sundresses Charcoal L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,35,12,20.86,44.2,85,75.5,11,700,36
+TW-LIN-1054,"Linen Shirts & Pants Ecru XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,29,10,16.67,37.44,72,76.8,15,1200,25
+TW-SWT-1055,"Merino Sweaters & Cardigans Forest Pine XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,38,13,27.01,62.4,120,77.5,18,900,39
+TW-LGG-1056,"Activewear Leggings & Tights Black XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,26,10,14.5,28.08,54,73.1,12,700,40
+TW-BRA-1057,"Performance Sports Bras Navy S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,23,9,11.34,18.72,36,68.5,12,1000,28
+TW-JOG-1058,"Loungewear & Joggers Heather Grey M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,28,10,14.97,30.16,58,74.2,10,1200,36
+TW-FLC-1059,"Fleece Pullovers & Zips Optical White L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,16.47,39,75,78,13,1200,31
+TW-BLS-1060,"Silk & Satin Blouses Olive Green XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,45,14,31.13,70.2,135,76.9,14,1400,34
+TW-CRD-1061,"Corduroy Overshirts Burgundy XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,31,11,20.58,42.64,82,74.9,14,1400,29
+TW-CSH-1062,"Cashmere Blend Knits Camel Tan XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,62,19,45.07,101.4,195,76.9,16,800,42
+TW-TOP-1063,"Tops & Tees Sage Blue S","Tops & Tees","Tops & Tees Core",FAB_COT_01,PLANT_IN_01,PLANT_VN_01,16,7,7.08,14.56,28,74.7,10,600,40
+TW-POL-1064,"Polos & Henleys Dusty Rose M","Polos & Henleys","Polos & Henleys Core",FAB_COT_02,PLANT_IN_01,PLANT_VN_01,22,9,10.59,21.84,42,74.8,11,700,37
+TW-HDY-1065,"Hoodies & Sweatshirts Charcoal L","Hoodies & Sweatshirts","Hoodies & Sweatshirts Core",FAB_TER_01,PLANT_BD_01,PLANT_ID_01,27,10,14.99,33.8,65,76.9,12,600,38
+TW-JKT-1066,"Jackets & Windbreakers Ecru XL","Jackets & Windbreakers","Jackets & Windbreakers Core",FAB_NYL_01,PLANT_VN_02,PLANT_MX_01,38,13,25.63,57.2,110,76.7,13,1100,40
+TW-PRK-1067,"Down & Winter Parkas Forest Pine XXL","Down & Winter Parkas","Down & Winter Parkas Core",FAB_WPR_01,PLANT_VN_02,PLANT_MX_01,56,17,43.78,96.2,185,76.3,18,900,26
+TW-DNM-1068,"Denim Jeans (Slim/Straight) Black XS","Denim Jeans (Slim/Straight)","Denim Jeans (Slim/Straight) Core",FAB_DEN_01,PLANT_TR_01,PLANT_BD_02,31,11,18.61,40.56,78,76.1,14,1100,33
+TW-CHN-1069,"Chinos & Casual Trousers Navy S","Chinos & Casual Trousers","Chinos & Casual Trousers Core",FAB_CHIN_01,PLANT_BD_01,PLANT_ID_01,23,9,13.69,32.24,62,77.9,11,1200,40
+TW-SHT-1070,"Shorts & Swimwear Heather Grey M","Shorts & Swimwear","Shorts & Swimwear Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,8.47,19.76,38,77.7,12,1300,34
+TW-DRS-1071,"Dresses & Sundresses Optical White L","Dresses & Sundresses","Dresses & Sundresses Core",FAB_VIS_01,PLANT_BD_01,PLANT_ID_01,30,11,19.2,44.2,85,77.4,11,700,29
+TW-LIN-1072,"Linen Shirts & Pants Olive Green XL","Linen Shirts & Pants","Linen Shirts & Pants Core",FAB_LIN_01,PLANT_BD_01,PLANT_ID_01,30,11,17.88,37.44,72,75.2,15,1200,33
+TW-SWT-1073,"Merino Sweaters & Cardigans Burgundy XXL","Merino Sweaters & Cardigans","Merino Sweaters & Cardigans Core",FAB_WOL_01,PLANT_PT_01,PLANT_IN_02,39,13,28.35,62.4,120,76.4,18,1300,40
+TW-LGG-1074,"Activewear Leggings & Tights Camel Tan XS","Activewear Leggings & Tights","Activewear Leggings & Tights Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,27,10,14.55,28.08,54,73.1,12,900,41
+TW-BRA-1075,"Performance Sports Bras Sage Blue S","Performance Sports Bras","Performance Sports Bras Core",FAB_POL_01,PLANT_LK_01,PLANT_VN_02,21,8,10.26,18.72,36,71.5,12,500,26
+TW-JOG-1076,"Loungewear & Joggers Dusty Rose M","Loungewear & Joggers","Loungewear & Joggers Core",FAB_SOFT_01,PLANT_BD_01,PLANT_ID_01,26,10,15.67,30.16,58,73,10,900,35
+TW-FLC-1077,"Fleece Pullovers & Zips Charcoal L","Fleece Pullovers & Zips","Fleece Pullovers & Zips Core",FAB_FLC_01,PLANT_BD_01,PLANT_ID_01,30,11,17.18,39,75,77.1,13,1400,40
+TW-BLS-1078,"Silk & Satin Blouses Ecru XL","Silk & Satin Blouses","Silk & Satin Blouses Core",FAB_SLK_01,PLANT_BD_01,PLANT_ID_01,47,15,33.04,70.2,135,75.5,14,1000,26
+TW-CRD-1079,"Corduroy Overshirts Forest Pine XXL","Corduroy Overshirts","Corduroy Overshirts Core",FAB_CORD_01,PLANT_TR_01,PLANT_BD_02,33,11,21.87,42.64,82,73.3,14,1000,26
+TW-CSH-1080,"Cashmere Blend Knits Black XS","Cashmere Blend Knits","Cashmere Blend Knits Core",FAB_KNT_01,PLANT_PT_01,PLANT_IN_02,59,18,44.92,101.4,195,77,16,900,30

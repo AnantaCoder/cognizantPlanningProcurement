@@ -1,0 +1,13 @@
+plant_id,plant_name,country,region,weekly_cut_hours,weekly_sew_hours,weekly_finish_hours,max_overtime_pct,hourly_labor_rate,labor_efficiency_pct
+PLANT_VN_01,"Hanoi Mega Plant","Vietnam","Southeast Asia",22000,45000,18000,25,3.80,92
+PLANT_VN_02,"Ho Chi Minh Performance Hub","Vietnam","Southeast Asia",19000,38000,15000,20,4.10,94
+PLANT_BD_01,"Dhaka Central Facility","Bangladesh","South Asia",28000,55000,22000,30,2.40,86
+PLANT_BD_02,"Chittagong Export Works","Bangladesh","South Asia",24000,48000,19000,25,2.30,87
+PLANT_IN_01,"Tirupur Eco-Knit Mill","India","South Asia",20000,40000,16000,20,2.90,90
+PLANT_IN_02,"Surat Synthetics Center","India","South Asia",16000,32000,13000,20,3.10,89
+PLANT_MX_01,"Puebla Nearshore Express","Mexico","Americas",14000,26000,11000,30,6.50,95
+PLANT_TR_01,"Izmir Denim & Tailoring","Turkey","EMEA",15000,28000,12000,25,5.80,93
+PLANT_PT_01,"Porto Luxury Atelier","Portugal","EMEA",9000,16000,8000,15,11.20,97
+PLANT_ID_01,"Bandung Wovens Complex","Indonesia","Southeast Asia",17000,34000,14000,20,3.20,88
+PLANT_KH_01,"Phnom Penh Apparel Ltd","Cambodia","Southeast Asia",15000,30000,12000,20,2.70,85
+PLANT_LK_01,"Colombo High-Flex Mill","Sri Lanka","South Asia",12000,24000,10000,20,3.50,93
