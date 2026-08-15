@@ -1,0 +1,31 @@
+Supplier_ID,Supplier_Name,Country,Region,Supplier_Tier,Certifications,Established_Year,Overall_Rating,Financial_Stability_Score,Primary_Contact,ESG_Score
+SUP-001,Apex Global Materials,USA,North America,Tier-1,"ISO-9001, AS9100",1992,4.36,63.2,contact@apexglobalma.com,61.5
+SUP-002,GlobalTex Synthetics,India,South Asia,Tier-1,"ISO-9001, OEKO-TEX",1986,4.75,83.0,contact@globaltexsyn.com,55.4
+SUP-003,Nordic Alloy Dynamics,Sweden,Europe,Tier-1,"ISO-9001, ISO-14001",2002,3.55,85.2,contact@nordicalloyd.com,55.2
+SUP-004,Pacific Polymer Corp,Taiwan,East Asia,Tier-2,ISO-9001,2000,3.64,80.9,contact@pacificpolym.com,82.7
+SUP-005,SinoSteel Industrial,China,East Asia,Tier-1,"ISO-9001, ISO-45001",1999,4.38,68.5,contact@sinosteelind.com,83.5
+SUP-006,Rhine Chemical Works,Germany,Europe,Tier-1,"ISO-9001, REACH",1993,3.76,72.4,contact@rhinechemica.com,84.9
+SUP-007,Shenzhen MicroElectronics,China,East Asia,Tier-1,"IATF-16949, ISO-9001",1991,4.37,92.3,contact@shenzhenmicr.com,81.3
+SUP-008,Nippon Advanced Tech,Japan,East Asia,Tier-1,"ISO-9001, JIS-Q-9100",1990,4.25,63.6,contact@nipponadvanc.com,69.7
+SUP-009,Vanguard Precision Metals,USA,North America,Tier-1,"AS9100, ISO-9001",2012,3.8,69.3,contact@vanguardprec.com,93.9
+SUP-010,Bavarian Composite Labs,Germany,Europe,Tier-2,ISO-9001,1987,3.99,93.9,contact@bavariancomp.com,80.2
+SUP-011,Seoul Semiconductor Co,South Korea,East Asia,Tier-1,"ISO-9001, IATF-16949",1986,4.59,79.1,contact@seoulsemicon.com,78.1
+SUP-012,Milan Textile Mills,Italy,Europe,Tier-2,"ISO-9001, GOTS",1990,4.14,67.4,contact@milantextile.com,83.9
+SUP-013,Bhartiya Industrial Components,India,South Asia,Tier-2,ISO-9001,1998,3.82,60.9,contact@bhartiyaindu.com,80.8
+SUP-014,Sao Paulo Rubber & Polymers,Brazil,South America,Tier-3,ISO-9001,1999,3.67,95.7,contact@saopaulorubb.com,93.2
+SUP-015,Maple Leaf Advanced Alloys,Canada,North America,Tier-2,ISO-9001,2017,4.77,74.1,contact@mapleleafadv.com,55.6
+SUP-016,Pohang Special Steels,South Korea,East Asia,Tier-1,ISO-9001,1986,4.79,76.3,contact@pohangspecia.com,93.7
+SUP-017,Rotterdam Logistics & Chem,Netherlands,Europe,Tier-1,"ISO-9001, SQAS",1997,4.85,92.4,contact@rotterdamlog.com,66.8
+SUP-018,Guangzhou Fasteners & Parts,China,East Asia,Tier-2,ISO-9001,2011,3.98,92.3,contact@guangzhoufas.com,67.7
+SUP-019,Bangalore Precision Sensors,India,South Asia,Tier-2,ISO-9001,1999,3.65,81.2,contact@bangalorepre.com,92.4
+SUP-020,Zurich High-Tech Elements,Switzerland,Europe,Tier-1,"ISO-9001, ISO-13485",2013,4.44,81.7,contact@zurichhigh-t.com,58.9
+SUP-021,Monterrey Forge & Stampings,Mexico,North America,Tier-2,IATF-16949,2002,4.32,97.6,contact@monterreyfor.com,60.6
+SUP-022,Taipei Micro Devices,Taiwan,East Asia,Tier-2,ISO-9001,1985,4.18,93.3,contact@taipeimicrod.com,84.6
+SUP-023,Kyoto Chemical Specialty,Japan,East Asia,Tier-1,ISO-9001,1995,4.45,86.7,contact@kyotochemica.com,69.4
+SUP-024,Bristol Packaging Solutions,UK,Europe,Tier-2,"BRCGS, ISO-9001",2012,3.84,90.8,contact@bristolpacka.com,87.4
+SUP-025,Detroit Industrial Feedstock,USA,North America,Tier-1,ISO-9001,2006,4.7,94.7,contact@detroitindus.com,75.5
+SUP-026,Hanoi Eco-Textiles,Vietnam,Southeast Asia,Tier-3,OEKO-TEX,2002,4.15,90.3,contact@hanoieco-tex.com,81.0
+SUP-027,Warsaw Component Foundry,Poland,Europe,Tier-2,ISO-9001,1994,4.45,90.2,contact@warsawcompon.com,90.6
+SUP-028,Penang Semiconductor Assembly,Malaysia,Southeast Asia,Tier-1,ISO-9001,1998,3.91,74.3,contact@penangsemico.com,58.8
+SUP-029,Flanders Advanced Materials,Belgium,Europe,Tier-2,ISO-9001,2006,4.27,61.4,contact@flandersadva.com,73.6
+SUP-030,Austin Micro-Optics,USA,North America,Tier-1,ISO-9001,1991,4.21,70.9,contact@austinmicro-.com,78.6

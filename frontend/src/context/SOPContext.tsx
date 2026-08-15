@@ -72,7 +72,7 @@ export const SOPProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [isLoading, setIsLoading] = useState(true);
   const [loadingStep, setLoadingStep] = useState('Initializing TrendWear S&OP Platform...');
   const [loadingProgress, setLoadingProgress] = useState(5);
-  const [activeLayer, setActiveLayer] = useState(5); // Default to Executive S&OP Layer for instant impact
+  const [activeLayer, setActiveLayer] = useState(1); // Default to Business Data Layer
 
   const [selectedSkuId, setSelectedSkuId] = useState<string>('TW-TOP-0001');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');

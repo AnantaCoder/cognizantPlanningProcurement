@@ -1,0 +1,51 @@
+Material_ID,Material_Name,Category,Unit_Of_Measure,Criticality,Standard_Cost,Holding_Cost_Pct,Stockout_Penalty_Multiplier
+MAT-001,Cotton Fabric Grade-A,Textiles & Fibers,Meters,Low,96.76,0.215,4.6
+MAT-002,Polyester Yarn,Textiles & Fibers,Meters,High,43.22,0.128,5.53
+MAT-003,Nylon Cord,Textiles & Fibers,Meters,Critical,152.27,0.123,5.89
+MAT-004,Wool Blend,Textiles & Fibers,Kg,High,208.95,0.144,3.14
+MAT-005,Silk Lining,Textiles & Fibers,Kg,Medium,79.54,0.176,3.52
+MAT-006,Spandex Elastic,Textiles & Fibers,Kg,High,154.9,0.158,3.78
+MAT-007,Denim Weave,Textiles & Fibers,Kg,Critical,116.74,0.146,4.3
+MAT-008,Organic Hemp Fiber,Textiles & Fibers,Kg,High,150.14,0.199,3.1
+MAT-009,Rayon Twill,Textiles & Fibers,Kg,Low,20.94,0.246,5.33
+MAT-010,Waterproof Membrane,Textiles & Fibers,Kg,High,79.63,0.209,4.04
+MAT-011,Structural Steel Sheet,Metals & Alloys,Kg,Medium,34.9,0.124,5.68
+MAT-012,Aluminum Ingot 6061,Metals & Alloys,Kg,Medium,68.4,0.161,4.32
+MAT-013,Copper Wire Rod,Metals & Alloys,Kg,High,138.94,0.246,5.21
+MAT-014,Titanium Alloy Plate,Metals & Alloys,Kg,Critical,235.18,0.198,5.73
+MAT-015,Brass Fitting,Metals & Alloys,Kg,High,26.68,0.126,3.64
+MAT-016,Stainless Steel 316,Metals & Alloys,Kg,High,100.23,0.228,3.75
+MAT-017,Galvanized Coil,Metals & Alloys,Kg,Medium,73.83,0.138,5.31
+MAT-018,Zinc Die-Cast Alloy,Metals & Alloys,Kg,Low,23.26,0.22,3.2
+MAT-019,Nickel Bar,Metals & Alloys,Kg,Critical,6.35,0.212,5.05
+MAT-020,Magnesium Extrusion,Metals & Alloys,Kg,High,193.96,0.167,2.91
+MAT-021,Polypropylene Resin,Polymers & Chemicals,Kg,Medium,216.46,0.163,2.72
+MAT-022,Polycarbonate Granules,Polymers & Chemicals,Kg,High,81.19,0.215,4.73
+MAT-023,Silicone Elastomer,Polymers & Chemicals,Kg,Medium,222.37,0.136,5.0
+MAT-024,Industrial Epoxy Resin,Polymers & Chemicals,Kg,Medium,191.39,0.22,4.23
+MAT-025,Polyurethane Foam,Polymers & Chemicals,Kg,Medium,133.07,0.123,2.88
+MAT-026,Rubber Seal Compound,Polymers & Chemicals,Kg,Medium,12.7,0.161,4.28
+MAT-027,ABS Plastic Pellets,Polymers & Chemicals,Kg,High,227.35,0.173,5.14
+MAT-028,Thermal Interface Paste,Polymers & Chemicals,Kg,High,61.06,0.158,3.06
+MAT-029,PVC Conduit Resin,Polymers & Chemicals,Kg,Critical,232.78,0.202,5.55
+MAT-030,Ceramic Coating,Polymers & Chemicals,Kg,High,201.9,0.236,4.39
+MAT-031,Microcontroller 32-bit,Electronics & Sensors,Units,Critical,202.82,0.161,2.89
+MAT-032,Lithium Polymer Cell 3.7V,Electronics & Sensors,Units,Medium,60.84,0.226,5.51
+MAT-033,Power MOSFET Module,Electronics & Sensors,Units,Medium,6.7,0.174,3.28
+MAT-034,Ceramic Capacitor Kit,Electronics & Sensors,Kg,High,34.37,0.243,3.63
+MAT-035,Multilayer PCB Substrate,Electronics & Sensors,Kg,Critical,132.1,0.167,5.9
+MAT-036,Optical Sensor Array,Electronics & Sensors,Kg,High,240.8,0.185,3.55
+MAT-037,Voltage Regulator IC,Electronics & Sensors,Kg,High,74.79,0.199,4.26
+MAT-038,Bluetooth 5.2 Transceiver,Electronics & Sensors,Kg,High,17.61,0.238,3.34
+MAT-039,Piezo Pressure Sensor,Electronics & Sensors,Kg,Medium,40.5,0.248,3.35
+MAT-040,LED Driver Module,Electronics & Sensors,Units,Critical,169.67,0.151,5.05
+MAT-041,Heavy Corrugated Cardboard,Packaging & Auxiliaries,Kg,Medium,95.11,0.202,4.38
+MAT-042,Biodegradable Bubble Film,Packaging & Auxiliaries,Kg,Critical,27.12,0.162,3.15
+MAT-043,Thermoformed Blister Tray,Packaging & Auxiliaries,Kg,Medium,14.99,0.208,2.56
+MAT-044,Steel Strapping Band,Packaging & Auxiliaries,Kg,High,130.46,0.204,3.11
+MAT-045,Desiccant Silica Gel,Packaging & Auxiliaries,Kg,Medium,174.28,0.242,2.98
+MAT-046,Industrial Adhesive Tape,Packaging & Auxiliaries,Kg,High,88.56,0.24,5.57
+MAT-047,Wooden Pallet Grade-1,Packaging & Auxiliaries,Units,Medium,68.2,0.226,4.44
+MAT-048,Shrink Wrap Film,Packaging & Auxiliaries,Kg,High,134.76,0.132,5.64
+MAT-049,Direct Thermal Label,Packaging & Auxiliaries,Kg,Medium,225.6,0.164,3.72
+MAT-050,Anti-Static Shielding Bag,Packaging & Auxiliaries,Kg,Critical,182.86,0.235,5.23

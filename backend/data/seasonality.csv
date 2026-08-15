@@ -1,0 +1,21 @@
+Season,Material_Category,Demand_Multiplier,Lead_Time_Multiplier,Price_Multiplier
+Q1 - Winter,Textiles & Fibers,1.06,1.1,1.02
+Q1 - Winter,Metals & Alloys,1.03,1.05,1.02
+Q1 - Winter,Polymers & Chemicals,0.87,1.05,1.02
+Q1 - Winter,Electronics & Sensors,1.04,1.05,1.02
+Q1 - Winter,Packaging & Auxiliaries,1.06,1.05,1.02
+Q2 - Spring,Textiles & Fibers,1.04,1.0,1.0
+Q2 - Spring,Metals & Alloys,1.17,1.0,1.0
+Q2 - Spring,Polymers & Chemicals,1.16,1.0,1.0
+Q2 - Spring,Electronics & Sensors,0.99,1.0,1.0
+Q2 - Spring,Packaging & Auxiliaries,1.18,1.0,1.0
+Q3 - Summer,Textiles & Fibers,1.18,1.02,1.01
+Q3 - Summer,Metals & Alloys,1.27,1.02,1.01
+Q3 - Summer,Polymers & Chemicals,1.29,1.02,1.01
+Q3 - Summer,Electronics & Sensors,1.2,1.02,1.01
+Q3 - Summer,Packaging & Auxiliaries,1.17,1.02,1.01
+Q4 - Fall Peak,Textiles & Fibers,1.42,1.18,1.06
+Q4 - Fall Peak,Metals & Alloys,1.22,1.18,1.06
+Q4 - Fall Peak,Polymers & Chemicals,1.23,1.18,1.06
+Q4 - Fall Peak,Electronics & Sensors,1.26,1.18,1.06
+Q4 - Fall Peak,Packaging & Auxiliaries,1.41,1.18,1.06

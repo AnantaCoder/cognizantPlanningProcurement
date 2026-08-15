@@ -1,0 +1,36 @@
+Disruption_ID,Supplier_ID,Disruption_Type,Start_Date,Duration_Weeks,Capacity_Impact_Pct,Root_Cause,Resolution_Status
+DIS-001-581,SUP-001,Severe Typhoon/Weather,2023-06-02,2,25,Severe Typhoon/Weather affecting regional hub production line.,Resolved
+DIS-002-790,SUP-002,Port Strike,2024-07-17,1,60,Port Strike affecting regional hub production line.,Resolved
+DIS-003-234,SUP-003,Factory Power Outage,2025-02-28,5,40,Factory Power Outage affecting regional hub production line.,Resolved
+DIS-003-633,SUP-003,Raw Material Shortage,2025-10-30,3,40,Raw Material Shortage affecting regional hub production line.,Resolved
+DIS-004-544,SUP-004,Severe Typhoon/Weather,2023-12-06,1,100,Severe Typhoon/Weather affecting regional hub production line.,Resolved
+DIS-004-855,SUP-004,Raw Material Shortage,2023-04-29,1,25,Raw Material Shortage affecting regional hub production line.,Resolved
+DIS-005-142,SUP-005,Machine Breakdown,2024-04-07,5,100,Machine Breakdown affecting regional hub production line.,Resolved
+DIS-005-476,SUP-005,Customs Inspection Delay,2023-05-17,2,25,Customs Inspection Delay affecting regional hub production line.,Resolved
+DIS-007-365,SUP-007,Machine Breakdown,2024-06-26,5,60,Machine Breakdown affecting regional hub production line.,Resolved
+DIS-007-359,SUP-007,Port Strike,2023-03-28,1,60,Port Strike affecting regional hub production line.,Resolved
+DIS-013-259,SUP-013,Severe Typhoon/Weather,2024-09-05,2,40,Severe Typhoon/Weather affecting regional hub production line.,Resolved
+DIS-014-994,SUP-014,Raw Material Shortage,2023-12-06,3,60,Raw Material Shortage affecting regional hub production line.,Resolved
+DIS-014-592,SUP-014,Factory Power Outage,2023-03-13,2,60,Factory Power Outage affecting regional hub production line.,Resolved
+DIS-014-287,SUP-014,Machine Breakdown,2025-05-20,3,60,Machine Breakdown affecting regional hub production line.,Resolved
+DIS-017-761,SUP-017,Machine Breakdown,2024-02-14,5,100,Machine Breakdown affecting regional hub production line.,Resolved
+DIS-018-164,SUP-018,Factory Power Outage,2024-01-06,5,100,Factory Power Outage affecting regional hub production line.,Resolved
+DIS-019-878,SUP-019,Severe Typhoon/Weather,2024-08-13,3,40,Severe Typhoon/Weather affecting regional hub production line.,Resolved
+DIS-020-843,SUP-020,Raw Material Shortage,2023-09-08,3,60,Raw Material Shortage affecting regional hub production line.,Resolved
+DIS-021-430,SUP-021,Factory Power Outage,2025-04-09,5,25,Factory Power Outage affecting regional hub production line.,Resolved
+DIS-021-458,SUP-021,Factory Power Outage,2024-12-04,3,60,Factory Power Outage affecting regional hub production line.,Resolved
+DIS-021-325,SUP-021,Raw Material Shortage,2025-10-22,1,25,Raw Material Shortage affecting regional hub production line.,Resolved
+DIS-021-380,SUP-021,Customs Inspection Delay,2024-07-03,5,60,Customs Inspection Delay affecting regional hub production line.,Resolved
+DIS-022-821,SUP-022,Severe Typhoon/Weather,2024-12-17,3,40,Severe Typhoon/Weather affecting regional hub production line.,Resolved
+DIS-022-997,SUP-022,Port Strike,2023-08-04,1,40,Port Strike affecting regional hub production line.,Resolved
+DIS-024-207,SUP-024,Factory Power Outage,2024-03-02,1,40,Factory Power Outage affecting regional hub production line.,Resolved
+DIS-024-242,SUP-024,Port Strike,2025-05-25,5,100,Port Strike affecting regional hub production line.,Resolved
+DIS-025-960,SUP-025,Severe Typhoon/Weather,2023-07-08,5,40,Severe Typhoon/Weather affecting regional hub production line.,Resolved
+DIS-026-912,SUP-026,Machine Breakdown,2023-07-25,1,40,Machine Breakdown affecting regional hub production line.,Resolved
+DIS-026-196,SUP-026,Machine Breakdown,2025-11-26,2,40,Machine Breakdown affecting regional hub production line.,Resolved
+DIS-026-768,SUP-026,Customs Inspection Delay,2023-10-22,3,40,Customs Inspection Delay affecting regional hub production line.,Resolved
+DIS-026-555,SUP-026,Port Strike,2025-10-23,1,25,Port Strike affecting regional hub production line.,Resolved
+DIS-027-361,SUP-027,Port Strike,2025-09-09,1,60,Port Strike affecting regional hub production line.,Resolved
+DIS-028-993,SUP-028,Port Strike,2024-08-21,3,40,Port Strike affecting regional hub production line.,Resolved
+DIS-028-520,SUP-028,Port Strike,2023-04-20,5,100,Port Strike affecting regional hub production line.,Resolved
+DIS-029-968,SUP-029,Machine Breakdown,2025-11-30,1,60,Machine Breakdown affecting regional hub production line.,Resolved
