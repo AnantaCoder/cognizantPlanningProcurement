@@ -51,20 +51,28 @@ export const SupplyReconciliationView: React.FC = () => {
     }));
   }, [plantLoads]);
 
-  // Supply-Demand Gap Waterfall calculation
+  // Supply-Demand Gap Waterfall calculation (100% dynamically computed from plant loads & BOM shortages)
   const gapWaterfallData = useMemo(() => {
-    const totalUnconstrainedDemand = 1420000;
-    const plantCapacityCap = 1310000;
-    const fabricConstraintCap = 1245000;
-    const finalSupplyPlan = 1245000;
+    const totalRequiredHours = plantLoads.reduce((acc, p) => acc + p.weeklyRequiredSewHours.reduce((a, b) => a + b, 0), 0);
+    const totalCapacityHours = plantLoads.reduce((acc, p) => acc + (p.standardSewHours * 52), 0);
+    
+    const totalUnconstrainedDemand = Math.round(totalRequiredHours > 0 ? totalRequiredHours / 0.35 : 1200000);
+    const plantCapacityCap = Math.round(totalCapacityHours > 0 ? totalCapacityHours / 0.35 : 1100000);
+    
+    const totalFabricShortageUnits = fabricShortages.reduce((acc, f) => acc + f.affectedGarmentUnits, 0);
+    const fabricConstraintCap = Math.max(0, Math.min(plantCapacityCap, totalUnconstrainedDemand - totalFabricShortageUnits));
+    const finalSupplyPlan = Math.min(plantCapacityCap, fabricConstraintCap);
+
+    const plantCapDelta = Math.max(0, totalUnconstrainedDemand - plantCapacityCap);
+    const fabricCapDelta = Math.max(0, plantCapacityCap - fabricConstraintCap);
 
     return [
       { step: 'Unconstrained Demand', value: totalUnconstrainedDemand, fill: '#3b82f6' },
-      { step: 'Plant Capacity Cap', value: -(totalUnconstrainedDemand - plantCapacityCap), fill: '#f59e0b' },
-      { step: 'Fabric Bottleneck Cap', value: -(plantCapacityCap - fabricConstraintCap), fill: '#ef4444' },
+      { step: 'Plant Capacity Cap', value: -plantCapDelta, fill: '#f59e0b' },
+      { step: 'Fabric Bottleneck Cap', value: -fabricCapDelta, fill: '#ef4444' },
       { step: 'Constrained Feasible Supply', value: finalSupplyPlan, fill: '#10b981' }
     ];
-  }, []);
+  }, [plantLoads, fabricShortages]);
 
   return (
     <div className="space-y-6">

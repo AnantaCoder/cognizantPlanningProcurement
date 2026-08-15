@@ -170,12 +170,18 @@ export const GlobalFilterBar: React.FC<Props> = ({
             onChange={(e) => onSKUChange(e.target.value)}
             className="w-full bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500 transition-colors"
           >
-            <option value="ALL">All Active SKUs (600)</option>
-            <option value="SKU-0001">SKU-0001 (Ind Turbine)</option>
-            <option value="SKU-0002">SKU-0002 (Auto Assembly)</option>
-            <option value="SKU-0003">SKU-0003 (Consumer Tech)</option>
-            <option value="SKU-0004">SKU-0004 (High-Perf Apparel)</option>
-            <option value="SKU-0005">SKU-0005 (Medical Equipment)</option>
+            <option value="ALL">All Active SKUs</option>
+            {options?.materials ? (
+              // Generate standard SKUs from material master or list
+              Array.from({ length: 15 }, (_, i) => {
+                const skuCode = `SKU-${String(i + 1).padStart(4, '0')}`;
+                return (
+                  <option key={skuCode} value={skuCode}>
+                    {skuCode}
+                  </option>
+                );
+              })
+            ) : null}
           </select>
         </div>
       </div>

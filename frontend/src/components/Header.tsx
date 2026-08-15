@@ -2,71 +2,127 @@ import React from 'react';
 import { useSOP } from '../context/SOPContext';
 import {
   Sparkles,
-  RefreshCw
+  RefreshCw,
+  HelpCircle,
+  ShieldCheck,
+  CheckCircle2,
+  Cpu,
+  Layers,
+  ArrowRight
 } from 'lucide-react';
 
 export const Header: React.FC = () => {
   const {
     isLoading,
-    activeLayer,
-    setActiveLayer,
+    activePage,
+    setActivePage,
     reloadDatasets,
-    optimizationSummary
+    optimizationSummary,
+    setLineageModalOpen
   } = useSOP();
 
-
+  const pipelineStages = [
+    { id: 'data-quality', label: '1. Data Quality' },
+    { id: 'demand-planning', label: '2. Demand Plan' },
+    { id: 'supply-capacity', label: '3. Capacity RCCP' },
+    { id: 'material-requirement', label: '4. Material Bridge', isBridge: true },
+    { id: 'procurement-intel', label: '5. Procurement' },
+    { id: 'risk-prediction', label: '6. AI Risk' },
+    { id: 'supplier-allocation', label: '7. PuLP Solver' },
+    { id: 'purchase-orders', label: '8. Purchase Orders' },
+    { id: 'scenario-sim', label: '9. Scenarios' },
+    { id: 'executive-sop', label: '10. Executive Brief' }
+  ];
 
   return (
-    <header className="bg-slate-900 border-b border-slate-800 sticky top-0 z-50 shadow-xl">
-
-
+    <header className="bg-[#040810] border-b border-slate-800 sticky top-0 z-50 shadow-2xl shrink-0">
       {/* Main Brand & Actions Header */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-4">
-        <div className="flex items-center gap-4">
-          <div className="w-10 h-10 rounded-xl bg-slate-900/80 flex items-center justify-center shadow-inner border border-slate-700/50 text-slate-200 font-bold tracking-widest relative overflow-hidden group">
-            <div className="absolute inset-0 bg-gradient-to-br from-brand-500/20 to-indigo-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            <span className="relative z-10 font-serif">TW</span>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 via-purple-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-indigo-500/20 border border-white/10 text-white font-black text-sm tracking-wider">
+            TW
           </div>
           <div className="flex flex-col justify-center">
-            <div className="flex items-center gap-3">
-              <h1 className="text-base font-medium bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent tracking-wide">
+            <div className="flex items-center gap-2.5">
+              <h1 className="text-sm sm:text-base font-black bg-gradient-to-r from-white via-slate-200 to-cyan-300 bg-clip-text text-transparent tracking-tight">
                 TRENDWEAR S&OP INTELLIGENCE PLATFORM
               </h1>
-              <div className="flex items-center gap-1.5 opacity-80">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-400 shadow-[0_0_8px_rgba(99,102,241,0.6)]" />
-                <span className="text-[9px] font-medium text-brand-300 uppercase tracking-widest">
-                  Integrated S&OP
-                </span>
-              </div>
+              <span className="hidden sm:inline-flex items-center gap-1 bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 text-[10px] font-mono px-2 py-0.5 rounded-full font-semibold">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                P2 + PR1 Unified
+              </span>
             </div>
-            <p className="text-[10px] text-slate-500 uppercase tracking-widest mt-0.5 font-light">
-              End-to-End Demand Forecasting, Capacity Rough-Cut & Production Optimization
+            <p className="text-[10px] text-slate-400 font-normal">
+              Integrated Demand, Rough-Cut Capacity, Material Explosion & Multi-Objective Supplier Allocation
             </p>
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5">
           {optimizationSummary && (
-            <div className="hidden md:flex items-center gap-2 px-3 py-1 rounded bg-slate-800/80 border border-slate-700 text-xs">
-              <Sparkles className="w-3.5 h-3.5 text-brand-400" />
-              <span className="text-slate-400">OTIF Service Level:</span>
-              <strong className="text-emerald-400 font-mono">{optimizationSummary.serviceLevelPct}%</strong>
+            <div className="hidden lg:flex items-center gap-2 px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-xs">
+              <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
+              <span className="text-slate-400 text-[11px]">Solver OTIF:</span>
+              <strong className="text-emerald-400 font-mono text-xs">{optimizationSummary.serviceLevelPct}%</strong>
             </div>
           )}
 
           <button
+            onClick={() => setLineageModalOpen(true)}
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-cyan-300 border border-slate-700/80 text-xs font-medium transition-colors"
+            title="View mathematical formulas and data lineage"
+          >
+            <HelpCircle className="w-3.5 h-3.5 text-cyan-400" />
+            <span className="hidden sm:inline">Data Lineage</span>
+          </button>
+
+          <button
             onClick={() => reloadDatasets()}
             disabled={isLoading}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-medium transition-colors"
-            title="Reload CSV Datasets from runtime files"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md shadow-indigo-600/20 transition-all"
+            title="Reload S&OP and Procurement datasets"
           >
-            <RefreshCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin text-brand-400' : ''}`} />
-            <span>{isLoading ? 'Computing...' : 'Reload Data'}</span>
+            <RefreshCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin' : ''}`} />
+            <span>{isLoading ? 'Recalculating...' : 'Recalculate'}</span>
           </button>
         </div>
       </div>
 
+      {/* End-to-End Pipeline Interactive Stepper */}
+      <div className="bg-[#070d1a] border-t border-slate-800/80 py-1.5 px-4 overflow-x-auto scrollbar-thin">
+        <div className="max-w-7xl mx-auto flex items-center gap-1 text-[10px] font-mono min-w-max">
+          <span className="text-slate-400 uppercase font-semibold mr-1 flex items-center gap-1">
+            <Layers className="w-3 h-3 text-cyan-400" />
+            <span>Pipeline:</span>
+          </span>
 
+          {pipelineStages.map((stage, idx) => {
+            const isActive = activePage === stage.id;
+            return (
+              <React.Fragment key={stage.id}>
+                <button
+                  onClick={() => setActivePage(stage.id)}
+                  className={`px-2 py-0.5 rounded-md transition-all flex items-center gap-1 ${
+                    isActive
+                      ? stage.isBridge
+                        ? 'bg-indigo-600 text-white font-bold shadow-sm'
+                        : 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 font-bold'
+                      : stage.isBridge
+                      ? 'text-indigo-300 hover:bg-indigo-950/50 bg-indigo-950/30 border border-indigo-500/30'
+                      : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                  }`}
+                >
+                  <span>{stage.label}</span>
+                </button>
+                {idx < pipelineStages.length - 1 && (
+                  <span className="text-slate-700 select-none">→</span>
+                )}
+              </React.Fragment>
+            );
+          })}
+        </div>
+      </div>
     </header>
   );
 };
+

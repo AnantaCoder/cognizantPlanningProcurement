@@ -5,8 +5,8 @@ from typing import Dict, Any, List, Optional
 from functools import lru_cache
 from fastapi import FastAPI, Query, Body, Response
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
-from fastapi.responses import ORJSONResponse
 from pydantic import BaseModel
 
 # Import Engines
@@ -23,8 +23,7 @@ from engines.executive_narrative import ExecutiveNarrativeEngine
 app = FastAPI(
     title="Procurement Planning & Supplier Risk Intelligence Platform API",
     version="1.0.0",
-    description="Operational decision-support platform for multi-objective allocation, risk prediction, and procurement optimization.",
-    default_response_class=ORJSONResponse
+    description="Operational decision-support platform for multi-objective allocation, risk prediction, and procurement optimization."
 )
 
 # Enable CORS for frontend
@@ -65,6 +64,8 @@ class OptimizationRequest(BaseModel):
     enforce_contracts: bool = True
     supplier_capacity_overrides: Optional[Dict[str, float]] = None
     disrupted_suppliers: Optional[List[str]] = None
+    custom_net_requirements: Optional[Dict[str, float]] = None
+    net_procurement_requirement: Optional[float] = None
 
 class ScenarioRequest(BaseModel):
     scenario_type: str = "custom"
@@ -89,9 +90,9 @@ class PORequest(BaseModel):
 def health_check():
     return {
         "status": "healthy",
-        "platform": "Procurement Planning & Supplier Risk Intelligence Platform",
-        "data_status": "READY FOR PROCUREMENT OPTIMIZATION",
-        "disclaimer": "All procurement operational data is synthetic demonstration data."
+        "platform": "TrendWear S&OP + Procurement Intelligence Platform",
+        "data_status": "READY FOR PLANNING & OPTIMIZATION",
+        "disclaimer": "All operational data is dynamically evaluated from S&OP demand and procurement datasets."
     }
 
 @app.get("/api/filter-options")
@@ -102,13 +103,26 @@ def get_filter_options():
 
     materials = df_mats[["Material_ID", "Material_Name", "Category"]].to_dict(orient="records") if len(df_mats) > 0 else []
     suppliers = df_sups[["Supplier_ID", "Supplier_Name", "Country"]].to_dict(orient="records") if len(df_sups) > 0 else []
+    
+    unique_plants = sorted(df_dem["Plant_ID"].dropna().unique().tolist()) if "Plant_ID" in df_dem.columns else []
+    plant_name_map = {
+        "PLANT-01": "Plant 01 - Tirupur Apparel Hub (India)",
+        "PLANT-02": "Plant 02 - Vietnam Garment Tech (Vietnam)",
+        "PLANT-03": "Plant 03 - Dhaka Precision Works (Bangladesh)",
+        "PLANT-04": "Plant 04 - Izmir Denim Facility (Turkey)",
+        "PLANT-05": "Plant 05 - Porto Knitwear Plant (Portugal)",
+        "PLANT-06": "Plant 06 - Monterrey Assembly Line (Mexico)"
+    }
     plants = [
-        {"Plant_ID": f"PLANT-{i:02d}", "Plant_Name": name}
-        for i, name in enumerate([
-            "Dallas Assembly Plant", "Detroit Automotive Works", "Stuttgart Precision Facility",
-            "Shanghai Mega-Factory", "Chennai Industrial Hub", "Monterrey Assembly Line"
-        ], 1)
+        {"Plant_ID": p, "Plant_Name": plant_name_map.get(p, f"Manufacturing Facility {p}")}
+        for p in unique_plants
     ]
+    if not plants:
+        plants = [
+            {"Plant_ID": f"PLANT-{i:02d}", "Plant_Name": plant_name_map.get(f"PLANT-{i:02d}", f"Plant {i}")}
+            for i in range(1, 7)
+        ]
+
     seasons = ["ALL", "Q1 - Winter", "Q2 - Spring", "Q3 - Summer", "Q4 - Fall Peak"]
     risk_classes = ["ALL", "LOW", "MEDIUM", "HIGH", "CRITICAL"]
 
@@ -118,7 +132,7 @@ def get_filter_options():
         "plants": plants,
         "seasons": seasons,
         "risk_classes": risk_classes,
-        "max_week": 286
+        "max_week": int(df_dem["Week"].max()) if ("Week" in df_dem.columns and len(df_dem) > 0) else 52
     }
 
 @app.get("/api/dashboard")
@@ -135,6 +149,12 @@ def get_dashboard_data(
     # AI risk stats
     risk_res = risk_engine.predict_supplier_risks(material_id=material_id)
 
+    # Dynamic quality and delivery rates from historical logs
+    df_qual = data_cleaner.get_df("quality_history.csv")
+    df_deliv = data_cleaner.get_df("delivery_history.csv")
+    qual_pass = round(float(df_qual["Passed_Flag"].mean() * 100.0), 1) if (len(df_qual) > 0 and "Passed_Flag" in df_qual.columns) else 94.2
+    otd_rate = round(float(df_deliv["On_Time_Flag"].mean() * 100.0), 1) if (len(df_deliv) > 0 and "On_Time_Flag" in df_deliv.columns) else 89.6
+
     # High-level KPIs
     kpis = {
         "total_material_requirement": dem_sig["summary"]["total_gross_material_requirement"],
@@ -146,8 +166,8 @@ def get_dashboard_data(
         "supplier_dependency_pct": opt_res["summary"]["supplier_dependency_pct"],
         "supplier_dependency_risk": opt_res["summary"]["supplier_dependency_risk"],
         "active_suppliers_count": opt_res["summary"]["active_suppliers_count"],
-        "quality_pass_rate_pct": 94.8,
-        "on_time_delivery_rate_pct": 89.2
+        "quality_pass_rate_pct": qual_pass,
+        "on_time_delivery_rate_pct": otd_rate
     }
 
     # Data lineage explanations
@@ -264,7 +284,9 @@ def optimize_allocation(req: OptimizationRequest):
         max_supplier_dependency_pct=req.max_supplier_dependency_pct,
         enforce_contracts=req.enforce_contracts,
         supplier_capacity_overrides=req.supplier_capacity_overrides,
-        disrupted_suppliers=req.disrupted_suppliers
+        disrupted_suppliers=req.disrupted_suppliers,
+        custom_net_requirements=req.custom_net_requirements,
+        net_procurement_requirement=req.net_procurement_requirement
     )
 
 @app.post("/api/simulate-scenario")

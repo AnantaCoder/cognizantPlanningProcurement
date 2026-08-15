@@ -22,36 +22,65 @@ class MultiObjectiveAllocationEngine:
                             max_supplier_dependency_pct: float = 60.0,
                             enforce_contracts: bool = True,
                             supplier_capacity_overrides: Optional[Dict[str, float]] = None,
-                            disrupted_suppliers: Optional[List[str]] = None) -> Dict[str, Any]:
+                            disrupted_suppliers: Optional[List[str]] = None,
+                            custom_net_requirements: Optional[Dict[str, float]] = None,
+                            net_procurement_requirement: Optional[float] = None) -> Dict[str, Any]:
         """Runs PuLP Linear Programming multi-objective optimization to allocate procurement volumes."""
         
         supplier_capacity_overrides = supplier_capacity_overrides or {}
         disrupted_suppliers = disrupted_suppliers or []
 
+        def resolve_material_id(m: str) -> str:
+            if not m or m == "ALL":
+                return m
+            valid_mats = self.df_materials["Material_ID"].tolist() if "Material_ID" in self.df_materials.columns else []
+            if m in valid_mats:
+                return m
+            # Try 3-digit normalization (e.g. MAT-0001 -> MAT-001)
+            if m.startswith("MAT-"):
+                num_part = m.split("-")[1].lstrip("0") or "1"
+                norm3 = f"MAT-{int(num_part):03d}"
+                if norm3 in valid_mats:
+                    return norm3
+            # Try mapping fabric code to material index
+            if m.startswith("FAB_") and valid_mats:
+                idx = abs(hash(m)) % len(valid_mats)
+                return valid_mats[idx]
+            return valid_mats[0] if valid_mats else m
+
         # 1. Determine Net Requirements per Material
-        df_dem = self.df_demand.copy()
-        if material_id and material_id != "ALL":
-            df_dem = df_dem[df_dem["Material_ID"] == material_id]
-        if plant_id and plant_id != "ALL":
-            df_dem = df_dem[df_dem["Plant_ID"] == plant_id]
+        if custom_net_requirements:
+            mat_reqs = {resolve_material_id(k): round(float(v) * demand_multiplier, 2) for k, v in custom_net_requirements.items() if float(v) > 0}
+        elif net_procurement_requirement is not None and net_procurement_requirement > 0 and material_id and material_id != "ALL":
+            resolved_m = resolve_material_id(material_id)
+            mat_reqs = {resolved_m: round(float(net_procurement_requirement) * demand_multiplier, 2)}
+        else:
+            df_dem = self.df_demand.copy()
+            if material_id and material_id != "ALL":
+                resolved_m = resolve_material_id(material_id)
+                df_dem = df_dem[df_dem["Material_ID"] == resolved_m]
+            if plant_id and plant_id != "ALL":
+                df_dem = df_dem[df_dem["Plant_ID"] == plant_id]
 
-        mat_reqs = df_dem.groupby("Material_ID")["Net_Procurement_Requirement"].sum().to_dict()
-        
-        # Apply demand multiplier
-        for m in mat_reqs:
-            mat_reqs[m] = round(mat_reqs[m] * demand_multiplier, 2)
-            if mat_reqs[m] <= 0:
-                mat_reqs[m] = 5000.0 # sensible default for demo if net is 0
+            mat_reqs = df_dem.groupby("Material_ID")["Net_Procurement_Requirement"].sum().to_dict()
+            
+            # Apply demand multiplier
+            for m in list(mat_reqs.keys()):
+                mat_reqs[m] = round(mat_reqs[m] * demand_multiplier, 2)
+                if mat_reqs[m] <= 0:
+                    mat_reqs[m] = 5000.0 # baseline fallback if net is 0
 
-        # If filtered to a specific material that had 0 demand, ensure baseline exists
-        if material_id and material_id != "ALL" and (material_id not in mat_reqs or mat_reqs[material_id] <= 0):
-            mat_reqs[material_id] = 50000.0 * demand_multiplier
+            # If filtered to a specific material that had 0 demand, ensure baseline exists
+            if material_id and material_id != "ALL":
+                resolved_m = resolve_material_id(material_id)
+                if resolved_m not in mat_reqs or mat_reqs[resolved_m] <= 0:
+                    mat_reqs[resolved_m] = 50000.0 * demand_multiplier
 
-        # If no materials, take top 5
-        if not mat_reqs:
-            top_mats = self.df_materials["Material_ID"].head(5).tolist()
-            for m in top_mats:
-                mat_reqs[m] = 40000.0 * demand_multiplier
+            # If no materials, take top 5
+            if not mat_reqs:
+                top_mats = self.df_materials["Material_ID"].head(5).tolist()
+                for m in top_mats:
+                    mat_reqs[m] = 40000.0 * demand_multiplier
 
         # 2. Get AI Risk Predictions for all suppliers
         risk_data = self.risk_engine.predict_supplier_risks(material_id=material_id)

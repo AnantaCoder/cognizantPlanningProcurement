@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { GitFork, RefreshCw, Sparkles, DollarSign, ShieldAlert, Clock, AlertTriangle, ArrowUpRight } from 'lucide-react';
 import {
   ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, Legend,
@@ -6,6 +6,7 @@ import {
 } from 'recharts';
 import { optimizeAllocation } from '../services/api';
 import { SupplierDetailModal } from '../components/SupplierDetailModal';
+import { useSOP } from '../../context/SOPContext';
 
 interface Props {
   selectedMaterial: string;
@@ -15,6 +16,7 @@ interface Props {
 }
 
 export const AllocationPage: React.FC<Props> = ({ selectedMaterial, selectedPlant, onAllocationsChange, onNavigate }) => {
+  const { bridgedProcurementItem } = useSOP();
   const [result, setResult] = useState<any>(null);
   const [loading, setLoading] = useState(false);
   const [params, setParams] = useState({
@@ -28,18 +30,24 @@ export const AllocationPage: React.FC<Props> = ({ selectedMaterial, selectedPlan
   const runOptimizer = useCallback(() => {
     setLoading(true);
     optimizeAllocation({
-      material_id: selectedMaterial !== 'ALL' ? selectedMaterial : null,
+      material_id: selectedMaterial !== 'ALL' ? selectedMaterial : (bridgedProcurementItem?.materialId || null),
       plant_id: selectedPlant !== 'ALL' ? selectedPlant : null,
       demand_multiplier: params.demand_multiplier,
       risk_weight: params.risk_weight,
       max_supplier_dependency_pct: params.max_dependency_pct,
       enforce_contracts: params.enforce_contracts,
+      net_procurement_requirement: bridgedProcurementItem?.netRequirement
     }).then(res => {
       setResult(res);
       onAllocationsChange(res.allocations);
       setLoading(false);
     }).catch(err => { console.error(err); setLoading(false); });
-  }, [selectedMaterial, selectedPlant, params, onAllocationsChange]);
+  }, [selectedMaterial, selectedPlant, params, onAllocationsChange, bridgedProcurementItem]);
+
+  // Auto-run optimizer on initial mount
+  useEffect(() => {
+    runOptimizer();
+  }, [runOptimizer]);
 
   const RISK_COLORS: Record<string, string> = { LOW: '#10b981', MEDIUM: '#f59e0b', HIGH: '#f43f5e', CRITICAL: '#a855f7' };
 
@@ -59,6 +67,33 @@ export const AllocationPage: React.FC<Props> = ({ selectedMaterial, selectedPlan
           <ArrowUpRight className="w-3.5 h-3.5" />
         </button>
       </div>
+
+      {/* Bridged requirement indicator banner */}
+      {bridgedProcurementItem && (
+        <div className="p-4 rounded-xl bg-gradient-to-r from-indigo-950/80 via-slate-900 to-slate-900 border border-indigo-500/50 flex flex-wrap items-center justify-between gap-3 shadow-lg shadow-indigo-950/40">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 rounded-lg bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-indigo-300 font-bold">
+              P2
+            </div>
+            <div>
+              <div className="text-xs font-bold text-white flex items-center gap-2">
+                <span>Bridged Demand Signal Active from S&OP BOM Engine:</span>
+                <span className="text-indigo-300 font-mono">{bridgedProcurementItem.materialName}</span>
+              </div>
+              <div className="text-[11px] text-slate-400">
+                Target Net Procurement Volume:{' '}
+                <strong className="text-emerald-400 font-mono">
+                  {bridgedProcurementItem.netRequirement.toLocaleString()} {bridgedProcurementItem.unitOfMeasure || 'Meters'}
+                </strong>{' '}
+                • Target Delivery Date: <span className="font-mono text-cyan-300">{bridgedProcurementItem.requiredDate || 'TBD'}</span>
+              </div>
+            </div>
+          </div>
+          <span className="text-[10px] font-mono bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2.5 py-1 rounded-full font-semibold">
+            PuLP Objective Constrained to Net Req
+          </span>
+        </div>
+      )}
 
       {/* LP Parameters Control Panel */}
       <div className="glass-panel p-5 rounded-2xl border border-slate-800">

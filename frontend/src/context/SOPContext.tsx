@@ -23,6 +23,15 @@ import type { OptimizationResultSummary } from '../engine/optimizationSolver';
 import { PRESET_SCENARIOS, simulateScenario } from '../engine/scenarioEngine';
 import { generateExecutiveActions } from '../engine/actionEngine';
 
+export interface BridgedProcurementItem {
+  materialId: string;
+  materialName: string;
+  netRequirement: number;
+  unitOfMeasure?: string;
+  requiredDate?: string;
+  plantId?: string;
+}
+
 interface SOPContextType {
   data: LoadedDataState | null;
   isLoading: boolean;
@@ -30,6 +39,37 @@ interface SOPContextType {
   loadingProgress: number;
   activeLayer: number;
   setActiveLayer: (layer: number) => void;
+  
+  // Unified Page Routing
+  activePage: string;
+  setActivePage: (page: string) => void;
+
+  // Global Unified Planning Scope Filters
+  selectedMaterial: string;
+  setSelectedMaterial: (mat: string) => void;
+  selectedSKU: string;
+  setSelectedSKU: (sku: string) => void;
+  selectedPlant: string;
+  setSelectedPlant: (plant: string) => void;
+  selectedSupplier: string;
+  setSelectedSupplier: (sup: string) => void;
+  selectedSeason: string;
+  setSelectedSeason: (season: string) => void;
+  selectedRiskClass: string;
+  setSelectedRiskClass: (risk: string) => void;
+  resetGlobalFilters: () => void;
+
+  // The P2 -> PR1 Bridge State
+  bridgedProcurementItem: BridgedProcurementItem | null;
+  sendToProcurement: (item: BridgedProcurementItem) => void;
+  sharedAllocations: any[];
+  setSharedAllocations: React.Dispatch<React.SetStateAction<any[]>>;
+
+  // Modals
+  lineageModalOpen: boolean;
+  setLineageModalOpen: (open: boolean) => void;
+  selectedSupplierModal: string | null;
+  setSelectedSupplierModal: (supId: string | null) => void;
   
   // Layer 3 Demand State
   selectedSkuId: string;
@@ -73,6 +113,41 @@ export const SOPProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [loadingStep, setLoadingStep] = useState('Initializing TrendWear S&OP Platform...');
   const [loadingProgress, setLoadingProgress] = useState(5);
   const [activeLayer, setActiveLayer] = useState(1); // Default to Business Data Layer
+  
+  // Unified Page Routing State
+  const [activePage, setActivePage] = useState<string>('dashboard');
+
+  // Global Filter State
+  const [selectedMaterial, setSelectedMaterial] = useState<string>('ALL');
+  const [selectedSKU, setSelectedSKU] = useState<string>('ALL');
+  const [selectedPlant, setSelectedPlant] = useState<string>('ALL');
+  const [selectedSupplier, setSelectedSupplier] = useState<string>('ALL');
+  const [selectedSeason, setSelectedSeason] = useState<string>('ALL');
+  const [selectedRiskClass, setSelectedRiskClass] = useState<string>('ALL');
+
+  // P2 -> PR1 Bridge State
+  const [bridgedProcurementItem, setBridgedProcurementItem] = useState<BridgedProcurementItem | null>(null);
+  const [sharedAllocations, setSharedAllocations] = useState<any[]>([]);
+
+  // Modals
+  const [lineageModalOpen, setLineageModalOpen] = useState(false);
+  const [selectedSupplierModal, setSelectedSupplierModal] = useState<string | null>(null);
+
+  const resetGlobalFilters = useCallback(() => {
+    setSelectedMaterial('ALL');
+    setSelectedSKU('ALL');
+    setSelectedPlant('ALL');
+    setSelectedSupplier('ALL');
+    setSelectedSeason('ALL');
+    setSelectedRiskClass('ALL');
+  }, []);
+
+  const sendToProcurement = useCallback((item: BridgedProcurementItem) => {
+    setBridgedProcurementItem(item);
+    if (item.materialId) {
+      setSelectedMaterial(item.materialId);
+    }
+  }, []);
 
   const [selectedSkuId, setSelectedSkuId] = useState<string>('TW-TOP-0001');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -283,8 +358,40 @@ export const SOPProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         isLoading,
         loadingStep,
         loadingProgress,
+        // Unified Routing
+        activePage,
+        setActivePage,
         activeLayer,
         setActiveLayer,
+
+        // Global Filters
+        selectedMaterial,
+        setSelectedMaterial,
+        selectedSKU,
+        setSelectedSKU,
+        selectedPlant,
+        setSelectedPlant,
+        selectedSupplier,
+        setSelectedSupplier,
+        selectedSeason,
+        setSelectedSeason,
+        selectedRiskClass,
+        setSelectedRiskClass,
+        resetGlobalFilters,
+
+        // P2 -> PR1 Bridge
+        bridgedProcurementItem,
+        sendToProcurement,
+        sharedAllocations,
+        setSharedAllocations,
+
+        // Modals
+        lineageModalOpen,
+        setLineageModalOpen,
+        selectedSupplierModal,
+        setSelectedSupplierModal,
+
+        // Layer 3 Demand State
         selectedSkuId,
         setSelectedSkuId,
         selectedCategory,
