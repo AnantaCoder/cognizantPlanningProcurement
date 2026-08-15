@@ -115,7 +115,18 @@ export const SOPProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [activeLayer, setActiveLayer] = useState(1); // Default to Business Data Layer
   
   // Unified Page Routing State
-  const [activePage, setActivePage] = useState<string>('dashboard');
+  const [activePage, setActivePage] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      const path = window.location.pathname.toLowerCase();
+      if (path === '/' || path === '') return 'home';
+      // Basic dash path parser
+      if (path.startsWith('/dashboard')) {
+        const route = path.replace('/dashboard', '').replace('/', '');
+        if (route) return route; // e.g. 'risk-prediction'
+      }
+    }
+    return 'home'; // Default to home initially instead of dashboard
+  });
 
   // Global Filter State
   const [selectedMaterial, setSelectedMaterial] = useState<string>('ALL');

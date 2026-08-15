@@ -73,6 +73,8 @@ const LINEAGE_ITEMS = [
   }
 ];
 
+import { HomePage } from './components/HomePage';
+
 const SOPAppContent: React.FC = () => {
   const {
     activePage,
@@ -232,6 +234,10 @@ const SOPAppContent: React.FC = () => {
         return <DashboardPage selectedMaterial={selectedMaterial} selectedPlant={selectedPlant} selectedSeason={selectedSeason} onNavigate={setActivePage} onSelectSupplier={setSelectedSupplierModal} onOpenLineage={() => setLineageModalOpen(true)} />;
     }
   };
+
+  if (activePage === 'home') {
+    return <HomePage onEnter={() => { setActivePage('dashboard'); window.history.pushState({}, '', '/dashboard'); }} />;
+  }
 
   return (
     <div className="flex flex-col h-full bg-[#070b14] text-slate-100 font-sans selection:bg-cyan-500 selection:text-white">

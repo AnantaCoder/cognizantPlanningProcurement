@@ -92,9 +92,15 @@ class SupplierEvaluationEngine:
         master["quality_pass_rate"] = master["quality_pass_rate"].fillna(92.0)
         master["avg_actual_lead_time"] = master["avg_actual_lead_time"].fillna(3.5).round(1)
         master["disruption_events"] = master["disruption_events"].fillna(0).astype(int)
+        master["avg_duration_weeks"] = master["avg_duration_weeks"].fillna(0.0).round(1)
         master["total_capacity"] = master["total_capacity"].fillna(25000).astype(int)
         master["avg_unit_price"] = master["avg_unit_price"].fillna(50.0).round(2)
         master["materials_count"] = master["materials_count"].fillna(1).astype(int)
+        master["on_time_deliveries"] = master["on_time_deliveries"].fillna(0).astype(int)
+        master["total_deliveries"] = master["total_deliveries"].fillna(0).astype(int)
+        master["total_inspections"] = master["total_inspections"].fillna(0).astype(int)
+        master["passed_inspections"] = master["passed_inspections"].fillna(0).astype(int)
+        master["avg_defect_rate"] = master["avg_defect_rate"].fillna(0.0).round(3)
 
         # Normalize component scores (0 to 100)
         min_p, max_p = master["avg_unit_price"].min(), master["avg_unit_price"].max()
@@ -127,7 +133,7 @@ class SupplierEvaluationEngine:
             lambda s: "LOW" if s >= 85 else ("MEDIUM" if s >= 72 else ("HIGH" if s >= 55 else "CRITICAL"))
         )
 
-        results = master.sort_values("overall_score", ascending=False).to_dict(orient="records")
+        results = master.replace({np.nan: None}).sort_values("overall_score", ascending=False).to_dict(orient="records")
 
         return {
             "weights_used": {
@@ -159,18 +165,19 @@ class SupplierEvaluationEngine:
 
         # Historical performance trend
         perf = self.df_perf[self.df_perf["Supplier_ID"] == supplier_id].sort_values("Week")
-        perf_trend = perf.to_dict(orient="records")
+        perf_trend = perf.replace({np.nan: None}).to_dict(orient="records")
 
         # Historical deliveries sample
         delivs = self.df_deliv[self.df_deliv["Supplier_ID"] == supplier_id].sort_values("Actual_Delivery_Date", ascending=False).head(25)
-        deliv_list = delivs.to_dict(orient="records")
+        deliv_list = delivs.replace({np.nan: None}).to_dict(orient="records")
 
         # Quality inspections sample
         quals = self.df_qual[self.df_qual["Supplier_ID"] == supplier_id].sort_values("Inspection_ID", ascending=False).head(25)
-        qual_list = quals.to_dict(orient="records")
+        qual_list = quals.replace({np.nan: None}).to_dict(orient="records")
 
         # Disruptions
-        disrupts = self.df_disrupt[self.df_disrupt["Supplier_ID"] == supplier_id].to_dict(orient="records")
+        disrupts = self.df_disrupt[self.df_disrupt["Supplier_ID"] == supplier_id]
+        disrupts = disrupts.replace({np.nan: None}).to_dict(orient="records")
 
         return {
             "supplier_profile": sup_info,

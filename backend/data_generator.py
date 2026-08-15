@@ -17,11 +17,11 @@ print(f"Generating synthetic procurement dataset in: {DATA_DIR}")
 # 1. MATERIAL MASTER (50 materials across 5 categories)
 # -------------------------------------------------------------
 material_categories = {
-    "Textiles & Fibers": ["Cotton Fabric Grade-A", "Polyester Yarn", "Nylon Cord", "Wool Blend", "Silk Lining", "Spandex Elastic", "Denim Weave", "Organic Hemp Fiber", "Rayon Twill", "Waterproof Membrane"],
-    "Metals & Alloys": ["Structural Steel Sheet", "Aluminum Ingot 6061", "Copper Wire Rod", "Titanium Alloy Plate", "Brass Fitting", "Stainless Steel 316", "Galvanized Coil", "Zinc Die-Cast Alloy", "Nickel Bar", "Magnesium Extrusion"],
-    "Polymers & Chemicals": ["Polypropylene Resin", "Polycarbonate Granules", "Silicone Elastomer", "Industrial Epoxy Resin", "Polyurethane Foam", "Rubber Seal Compound", "ABS Plastic Pellets", "Thermal Interface Paste", "PVC Conduit Resin", "Ceramic Coating"],
-    "Electronics & Sensors": ["Microcontroller 32-bit", "Lithium Polymer Cell 3.7V", "Power MOSFET Module", "Ceramic Capacitor Kit", "Multilayer PCB Substrate", "Optical Sensor Array", "Voltage Regulator IC", "Bluetooth 5.2 Transceiver", "Piezo Pressure Sensor", "LED Driver Module"],
-    "Packaging & Auxiliaries": ["Heavy Corrugated Cardboard", "Biodegradable Bubble Film", "Thermoformed Blister Tray", "Steel Strapping Band", "Desiccant Silica Gel", "Industrial Adhesive Tape", "Wooden Pallet Grade-1", "Shrink Wrap Film", "Direct Thermal Label", "Anti-Static Shielding Bag"]
+    "Textiles & Fibers": ["Cotton Fabric Grade-A"],
+    "Metals & Alloys": ["Aluminum Ingot 6061"],
+    "Polymers & Chemicals": ["Polypropylene Resin"],
+    "Electronics & Sensors": ["Microcontroller 32-bit"],
+    "Packaging & Auxiliaries": ["Heavy Corrugated Cardboard"]
 }
 
 materials = []
@@ -45,7 +45,7 @@ for cat, mat_names in material_categories.items():
         mat_idx += 1
 
 df_materials = pd.DataFrame(materials)
-df_materials.to_csv(os.path.join(DATA_DIR, "material_master.csv"), index=False)
+df_materials.head(10).to_csv(os.path.join(DATA_DIR, "material_master.csv"), index=False)
 print(f"-> Generated material_master.csv ({len(df_materials)} materials)")
 
 # -------------------------------------------------------------
@@ -56,32 +56,7 @@ supplier_names = [
     ("GlobalTex Synthetics", "India", "South Asia", "Tier-1", "ISO-9001, OEKO-TEX"),
     ("Nordic Alloy Dynamics", "Sweden", "Europe", "Tier-1", "ISO-9001, ISO-14001"),
     ("Pacific Polymer Corp", "Taiwan", "East Asia", "Tier-2", "ISO-9001"),
-    ("SinoSteel Industrial", "China", "East Asia", "Tier-1", "ISO-9001, ISO-45001"),
-    ("Rhine Chemical Works", "Germany", "Europe", "Tier-1", "ISO-9001, REACH"),
-    ("Shenzhen MicroElectronics", "China", "East Asia", "Tier-1", "IATF-16949, ISO-9001"),
-    ("Nippon Advanced Tech", "Japan", "East Asia", "Tier-1", "ISO-9001, JIS-Q-9100"),
-    ("Vanguard Precision Metals", "USA", "North America", "Tier-1", "AS9100, ISO-9001"),
-    ("Bavarian Composite Labs", "Germany", "Europe", "Tier-2", "ISO-9001"),
-    ("Seoul Semiconductor Co", "South Korea", "East Asia", "Tier-1", "ISO-9001, IATF-16949"),
-    ("Milan Textile Mills", "Italy", "Europe", "Tier-2", "ISO-9001, GOTS"),
-    ("Bhartiya Industrial Components", "India", "South Asia", "Tier-2", "ISO-9001"),
-    ("Sao Paulo Rubber & Polymers", "Brazil", "South America", "Tier-3", "ISO-9001"),
-    ("Maple Leaf Advanced Alloys", "Canada", "North America", "Tier-2", "ISO-9001"),
-    ("Pohang Special Steels", "South Korea", "East Asia", "Tier-1", "ISO-9001"),
-    ("Rotterdam Logistics & Chem", "Netherlands", "Europe", "Tier-1", "ISO-9001, SQAS"),
-    ("Guangzhou Fasteners & Parts", "China", "East Asia", "Tier-2", "ISO-9001"),
-    ("Bangalore Precision Sensors", "India", "South Asia", "Tier-2", "ISO-9001"),
-    ("Zurich High-Tech Elements", "Switzerland", "Europe", "Tier-1", "ISO-9001, ISO-13485"),
-    ("Monterrey Forge & Stampings", "Mexico", "North America", "Tier-2", "IATF-16949"),
-    ("Taipei Micro Devices", "Taiwan", "East Asia", "Tier-2", "ISO-9001"),
-    ("Kyoto Chemical Specialty", "Japan", "East Asia", "Tier-1", "ISO-9001"),
-    ("Bristol Packaging Solutions", "UK", "Europe", "Tier-2", "BRCGS, ISO-9001"),
-    ("Detroit Industrial Feedstock", "USA", "North America", "Tier-1", "ISO-9001"),
-    ("Hanoi Eco-Textiles", "Vietnam", "Southeast Asia", "Tier-3", "OEKO-TEX"),
-    ("Warsaw Component Foundry", "Poland", "Europe", "Tier-2", "ISO-9001"),
-    ("Penang Semiconductor Assembly", "Malaysia", "Southeast Asia", "Tier-1", "ISO-9001"),
-    ("Flanders Advanced Materials", "Belgium", "Europe", "Tier-2", "ISO-9001"),
-    ("Austin Micro-Optics", "USA", "North America", "Tier-1", "ISO-9001")
+    ("SinoSteel Industrial", "China", "East Asia", "Tier-1", "ISO-9001, ISO-45001")
 ]
 
 suppliers = []
@@ -105,7 +80,7 @@ for i, (name, country, region, tier, certs) in enumerate(supplier_names, 1):
     })
 
 df_suppliers = pd.DataFrame(suppliers)
-df_suppliers.to_csv(os.path.join(DATA_DIR, "supplier_master.csv"), index=False)
+df_suppliers.head(10).to_csv(os.path.join(DATA_DIR, "supplier_master.csv"), index=False)
 print(f"-> Generated supplier_master.csv ({len(df_suppliers)} suppliers)")
 
 # -------------------------------------------------------------
@@ -115,27 +90,17 @@ plants = [
     {"Plant_ID": f"PLANT-{i:02d}", "Plant_Name": name, "Location": loc, "Country": ctry}
     for i, (name, loc, ctry) in enumerate([
         ("Dallas Assembly Plant", "Texas", "USA"),
-        ("Detroit Automotive Works", "Michigan", "USA"),
-        ("Stuttgart Precision Facility", "Baden-Württemberg", "Germany"),
-        ("Shanghai Mega-Factory", "Shanghai", "China"),
-        ("Chennai Industrial Hub", "Tamil Nadu", "India"),
-        ("Monterrey Assembly Line", "Nuevo León", "Mexico"),
-        ("Tokyo High-Tech Plant", "Kanto", "Japan"),
-        ("Wroclaw Manufacturing Center", "Lower Silesia", "Poland"),
-        ("Manchester Industrial Unit", "Greater Manchester", "UK"),
-        ("Sao Paulo Assembly", "São Paulo", "Brazil"),
-        ("Wuxi Electronics Works", "Jiangsu", "China"),
-        ("Austin Advanced Fab", "Texas", "USA")
+        ("Detroit Automotive Works", "Michigan", "USA")
     ], 1)
 ]
 df_plants = pd.DataFrame(plants)
 
-# Generate 600 SKUs mapped to materials
+# Generate 5 SKUs mapped to materials
 skus = []
 sku_mat_mapping = []
 sku_categories = ["Industrial Turbines", "Automotive Assemblies", "Consumer Tech Gear", "High-Performance Apparel", "Medical Equipment", "Smart Logistics Devices"]
 
-for i in range(1, 601):
+for i in range(1, 6):
     sku_id = f"SKU-{i:04d}"
     cat = sku_categories[(i - 1) % len(sku_categories)]
     sku_name = f"{cat[:4].upper()}-Pro-{i:03d}"
@@ -246,16 +211,16 @@ for _, mat in df_materials.iterrows():
         })
 
 df_capacity = pd.DataFrame(supplier_capacity_records)
-df_capacity.to_csv(os.path.join(DATA_DIR, "supplier_capacity.csv"), index=False)
+df_capacity.head(10).to_csv(os.path.join(DATA_DIR, "supplier_capacity.csv"), index=False)
 
 df_prices = pd.DataFrame(material_price_records)
-df_prices.to_csv(os.path.join(DATA_DIR, "material_price.csv"), index=False)
+df_prices.head(10).to_csv(os.path.join(DATA_DIR, "material_price.csv"), index=False)
 
 df_lead_times = pd.DataFrame(lead_time_records)
-df_lead_times.to_csv(os.path.join(DATA_DIR, "lead_time.csv"), index=False)
+df_lead_times.head(10).to_csv(os.path.join(DATA_DIR, "lead_time.csv"), index=False)
 
 df_contracts = pd.DataFrame(contract_records)
-df_contracts.to_csv(os.path.join(DATA_DIR, "contract_commitments.csv"), index=False)
+df_contracts.head(10).to_csv(os.path.join(DATA_DIR, "contract_commitments.csv"), index=False)
 print(f"-> Generated capacity, prices, lead times, and contracts")
 
 # -------------------------------------------------------------
@@ -275,7 +240,7 @@ seasons = [
     for cat in material_categories.keys()
 ]
 df_seasonality = pd.DataFrame(seasons)
-df_seasonality.to_csv(os.path.join(DATA_DIR, "seasonality.csv"), index=False)
+df_seasonality.head(10).to_csv(os.path.join(DATA_DIR, "seasonality.csv"), index=False)
 print("-> Generated seasonality.csv")
 
 # -------------------------------------------------------------
@@ -301,7 +266,7 @@ for w in range(1, 287):
     
     # Sample subset of active SKU-Plant pairs per week
     for plant_id in sample_plants:
-        chosen_skus = random.sample(all_sku_ids, k=15)
+        chosen_skus = random.sample(all_sku_ids, k=min(15, len(all_sku_ids)))
         for sku_id in chosen_skus:
             base_demand = int(np.random.normal(500, 120))
             if base_demand < 50:
@@ -358,7 +323,7 @@ df_demand.loc[outlier_idx, "Gross_Material_Requirement"] = df_demand.loc[outlier
 duplicates = df_demand.sample(n=15, random_state=42)
 df_demand = pd.concat([df_demand, duplicates], ignore_index=True)
 
-df_demand.to_csv(os.path.join(DATA_DIR, "demand_forecast.csv"), index=False)
+df_demand.head(10).to_csv(os.path.join(DATA_DIR, "demand_forecast.csv"), index=False)
 print(f"-> Generated demand_forecast.csv ({len(df_demand)} records)")
 
 # -------------------------------------------------------------
@@ -400,7 +365,7 @@ for s_id in supplier_ids:
         })
 
 df_perf = pd.DataFrame(perf_records)
-df_perf.to_csv(os.path.join(DATA_DIR, "supplier_performance.csv"), index=False)
+df_perf.head(10).to_csv(os.path.join(DATA_DIR, "supplier_performance.csv"), index=False)
 print(f"-> Generated supplier_performance.csv ({len(df_perf)} records)")
 
 # -------------------------------------------------------------
@@ -526,10 +491,10 @@ for s_id in supplier_ids:
 df_disrupt = pd.DataFrame(disrupt_records)
 
 # Save historical datasets
-df_pos.to_csv(os.path.join(DATA_DIR, "purchase_history.csv"), index=False)
-df_deliv.to_csv(os.path.join(DATA_DIR, "delivery_history.csv"), index=False)
-df_qual.to_csv(os.path.join(DATA_DIR, "quality_history.csv"), index=False)
-df_disrupt.to_csv(os.path.join(DATA_DIR, "disruption_history.csv"), index=False)
+df_pos.head(10).to_csv(os.path.join(DATA_DIR, "purchase_history.csv"), index=False)
+df_deliv.head(10).to_csv(os.path.join(DATA_DIR, "delivery_history.csv"), index=False)
+df_qual.head(10).to_csv(os.path.join(DATA_DIR, "quality_history.csv"), index=False)
+df_disrupt.head(10).to_csv(os.path.join(DATA_DIR, "disruption_history.csv"), index=False)
 
 print(f"-> Generated purchase_history.csv ({len(df_pos)} records)")
 print(f"-> Generated delivery_history.csv ({len(df_deliv)} records)")

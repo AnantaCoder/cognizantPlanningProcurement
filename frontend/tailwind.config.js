@@ -28,7 +28,8 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+        mono: ['IBM Plex Mono', 'JetBrains Mono', 'Fira Code', 'monospace'],
+        oswald: ['Oswald', 'sans-serif'],
       }
     },
   },

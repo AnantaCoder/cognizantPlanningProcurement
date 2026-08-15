@@ -76,7 +76,7 @@ export const GlobalFilterBar: React.FC<Props> = ({
             onChange={(e) => onMaterialChange(e.target.value)}
             className="w-full bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500 transition-colors"
           >
-            <option value="ALL">All Materials (50)</option>
+            <option value="ALL">All Materials</option>
             {options?.materials.map((m) => (
               <option key={m.Material_ID} value={m.Material_ID}>
                 {m.Material_ID} - {m.Material_Name}
@@ -95,7 +95,7 @@ export const GlobalFilterBar: React.FC<Props> = ({
             onChange={(e) => onPlantChange(e.target.value)}
             className="w-full bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500 transition-colors"
           >
-            <option value="ALL">All Plants (12)</option>
+            <option value="ALL">All Plants</option>
             {options?.plants.map((p) => (
               <option key={p.Plant_ID} value={p.Plant_ID}>
                 {p.Plant_ID} - {p.Plant_Name}
@@ -114,7 +114,7 @@ export const GlobalFilterBar: React.FC<Props> = ({
             onChange={(e) => onSupplierChange(e.target.value)}
             className="w-full bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500 transition-colors"
           >
-            <option value="ALL">All Suppliers (30)</option>
+            <option value="ALL">All Suppliers</option>
             {options?.suppliers.map((s) => (
               <option key={s.Supplier_ID} value={s.Supplier_ID}>
                 {s.Supplier_ID} - {s.Supplier_Name}
@@ -173,7 +173,7 @@ export const GlobalFilterBar: React.FC<Props> = ({
             <option value="ALL">All Active SKUs</option>
             {options?.materials ? (
               // Generate standard SKUs from material master or list
-              Array.from({ length: 15 }, (_, i) => {
+              Array.from({ length: 5 }, (_, i) => {
                 const skuCode = `SKU-${String(i + 1).padStart(4, '0')}`;
                 return (
                   <option key={skuCode} value={skuCode}>
