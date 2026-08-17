@@ -137,7 +137,12 @@ const SOPAppContent: React.FC = () => {
       case 'data-quality':
         return (
           <div className="space-y-8">
-            <DataQualityView />
+            <div>
+              <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
+                Comprehensive Data Quality & Imputation Report
+              </h3>
+              <DataQualityPage />
+            </div>
             <div className="border-t border-slate-800 pt-6">
               <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
                 Raw Operational Datasets Ingestion Audit
@@ -145,10 +150,7 @@ const SOPAppContent: React.FC = () => {
               <DataInputsView />
             </div>
             <div className="border-t border-slate-800 pt-6">
-              <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
-                Comprehensive Data Quality & Imputation Report
-              </h3>
-              <DataQualityPage />
+              <DataQualityView />
             </div>
           </div>
         );

@@ -4,6 +4,9 @@ from typing import Dict, Any, List, Optional
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
 
+import os
+import joblib
+
 class AIRiskPredictionEngine:
     def __init__(self, cleaned_dfs: Dict[str, pd.DataFrame]):
         self.df_suppliers = cleaned_dfs.get("supplier_master.csv", pd.DataFrame())
@@ -14,15 +17,26 @@ class AIRiskPredictionEngine:
         self.df_perf = cleaned_dfs.get("supplier_performance.csv", pd.DataFrame())
         self.df_materials = cleaned_dfs.get("material_master.csv", pd.DataFrame())
 
-        self.classifier = GradientBoostingClassifier(n_estimators=50, random_state=42)
-        self.delay_regressor = RandomForestRegressor(n_estimators=40, random_state=42)
         self.feature_names = [
             "on_time_rate", "avg_delay_days", "lead_time_variability",
             "defect_rate", "disruption_count", "capacity_utilization",
             "financial_score", "esg_score"
         ]
         self.feature_importances: Dict[str, float] = {}
-        self.train_models()
+        
+        ml_models_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "ml_models")
+        clf_path = os.path.join(ml_models_dir, "risk_classifier.joblib")
+        reg_path = os.path.join(ml_models_dir, "delay_regressor.joblib")
+        
+        try:
+            self.classifier = joblib.load(clf_path)
+            self.delay_regressor = joblib.load(reg_path)
+            print(f"Loaded pre-trained AI models from {ml_models_dir}")
+        except Exception as e:
+            print(f"Pre-trained models not found, training on the fly: {e}")
+            self.classifier = GradientBoostingClassifier(n_estimators=50, random_state=42)
+            self.delay_regressor = RandomForestRegressor(n_estimators=40, random_state=42)
+            self.train_models()
 
     def train_models(self):
         """Prepares training features from historical logs and trains the ML models."""

@@ -26,18 +26,18 @@ export const Sidebar: React.FC = () => {
 
   const navItems = [
     { id: 'dashboard', label: 'Executive Dashboard', step: '01', icon: LayoutDashboard, category: 'OVERVIEW' },
-    { id: 'data-quality', label: 'Data Ingestion & Quality', step: '02', icon: ShieldCheck, category: 'FOUNDATION' },
-    { id: 'demand-planning', label: 'Demand Forecasting', step: '03', icon: TrendingUp, category: 'P2 DEMAND' },
-    { id: 'supply-capacity', label: 'Supply & Plant Capacity', step: '04', icon: Factory, category: 'P2 SUPPLY' },
-    { id: 'material-requirement', label: 'Material Requirement', step: '05', icon: Boxes, category: 'P2 → PR1 BRIDGE', isBridge: true },
-    { id: 'procurement-intel', label: 'Procurement Planning', step: '06', icon: Cpu, category: 'PR1 INTELLIGENCE' },
-    { id: 'supplier-eval', label: 'Supplier Evaluation', step: '07', icon: Award, category: 'PR1 INTELLIGENCE' },
-    { id: 'risk-prediction', label: 'AI Supplier Risk', step: '08', icon: BrainCircuit, category: 'PR1 INTELLIGENCE' },
-    { id: 'supplier-allocation', label: 'Multi-Objective Solver', step: '09', icon: GitFork, category: 'PR1 OPTIMIZATION' },
-    { id: 'purchase-orders', label: 'Purchase Orders', step: '10', icon: FileText, category: 'PR1 EXECUTION' },
-    { id: 'scenario-sim', label: 'What-If Scenarios', step: '11', icon: SlidersHorizontal, category: 'GOVERNANCE' },
-    { id: 'feedback-loop', label: 'Feedback Loop', step: '12', icon: RefreshCw, category: 'GOVERNANCE' },
-    { id: 'executive-sop', label: 'Executive S&OP Plan', step: '13', icon: FileSpreadsheet, category: 'DECISION BRIEF' },
+    { id: 'executive-sop', label: 'Executive S&OP Plan', step: '02', icon: FileSpreadsheet, category: 'DECISION BRIEF' },
+    { id: 'data-quality', label: 'Data Ingestion & Quality', step: '03', icon: ShieldCheck, category: 'FOUNDATION' },
+    { id: 'demand-planning', label: 'Demand Forecasting', step: '04', icon: TrendingUp, category: 'P2 DEMAND' },
+    { id: 'supply-capacity', label: 'Supply & Plant Capacity', step: '05', icon: Factory, category: 'P2 SUPPLY' },
+    { id: 'material-requirement', label: 'Material Requirement', step: '06', icon: Boxes, category: 'P2 → PR1 BRIDGE', isBridge: true },
+    { id: 'procurement-intel', label: 'Procurement Planning', step: '07', icon: Cpu, category: 'PR1 INTELLIGENCE' },
+    { id: 'supplier-eval', label: 'Supplier Evaluation', step: '08', icon: Award, category: 'PR1 INTELLIGENCE' },
+    { id: 'risk-prediction', label: 'AI Supplier Risk', step: '09', icon: BrainCircuit, category: 'PR1 INTELLIGENCE' },
+    { id: 'supplier-allocation', label: 'Multi-Objective Solver', step: '10', icon: GitFork, category: 'PR1 OPTIMIZATION' },
+    { id: 'purchase-orders', label: 'Purchase Orders', step: '11', icon: FileText, category: 'PR1 EXECUTION' },
+    { id: 'scenario-sim', label: 'What-If Scenarios', step: '12', icon: SlidersHorizontal, category: 'GOVERNANCE' },
+    { id: 'feedback-loop', label: 'Feedback Loop', step: '13', icon: RefreshCw, category: 'GOVERNANCE' },
   ];
 
   return (
