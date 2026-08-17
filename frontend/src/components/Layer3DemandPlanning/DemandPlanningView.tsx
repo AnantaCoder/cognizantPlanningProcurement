@@ -296,29 +296,12 @@ export const DemandPlanningView: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <TrendingUp className="w-5 h-5 text-brand-400" />
                   <h2 className="text-base font-bold text-slate-100">
-                    Layer 3: Multi-Model AI Demand Forecasting
+                    Demand Forecasting & Seasonality
                   </h2>
                 </div>
                 <p className="text-xs text-slate-400 mt-0.5">
-                  Showing historical unconstrained demand baseline and 52-week forward rolling forecast with 95% confidence bands.
+                  Showing statistical baseline demand with Gaussian distribution and algorithmic seasonal multipliers.
                 </p>
-              </div>
-
-              {/* Model View Switcher */}
-              <div className="flex items-center gap-1 bg-slate-900 p-1 rounded-lg border border-slate-800 text-xs">
-                {(['all', 'holt_winters', 'croston', 'dampened', 'ensemble'] as const).map(m => (
-                  <button
-                    key={m}
-                    onClick={() => setActiveModelView(m)}
-                    className={`px-2.5 py-1 rounded font-medium transition-all ${
-                      activeModelView === m
-                        ? 'bg-brand-600 text-white shadow-sm'
-                        : 'text-slate-400 hover:text-slate-200'
-                    }`}
-                  >
-                    {m === 'all' ? 'All Models' : m === 'holt_winters' ? 'Holt-Winters' : m === 'croston' ? 'Croston' : m === 'dampened' ? 'Dampened' : 'Ensemble'}
-                  </button>
-                ))}
               </div>
             </div>
 
@@ -352,12 +335,9 @@ export const DemandPlanningView: React.FC = () => {
                             ) : (
                               <>
                                 <div className="text-white font-bold text-sm">
-                                  Primary Forecast: {d.forecastPrimary} units
+                                  Gaussian + Seasonal Forecast: {d.forecastPrimary} units
                                 </div>
                                 <div className="text-slate-400">95% CI: [{d.lower95} – {d.upper95}]</div>
-                                <div className="text-blue-400">Holt-Winters: {d.holtWinters} units</div>
-                                <div className="text-purple-400">Croston: {d.croston} units</div>
-                                <div className="text-amber-400">Dampened Trend: {d.dampenedTrend} units</div>
                               </>
                             )}
                           </div>
@@ -388,79 +368,20 @@ export const DemandPlanningView: React.FC = () => {
                     dot={{ r: 2 }}
                   />
 
-                  {/* Active Models */}
-                  {(activeModelView === 'all' || activeModelView === 'ensemble') && (
-                    <Line
-                      type="monotone"
-                      dataKey="ensemble"
-                      name="Ensemble AI Forecast"
-                      stroke="#10b981"
-                      strokeWidth={3}
-                      dot={false}
-                    />
-                  )}
-                  {(activeModelView === 'all' || activeModelView === 'holt_winters') && (
-                    <Line
-                      type="monotone"
-                      dataKey="holtWinters"
-                      name="Holt-Winters Triple Smoothing"
-                      stroke="#3b82f6"
-                      strokeWidth={2}
-                      strokeDasharray="4 4"
-                      dot={false}
-                    />
-                  )}
-                  {(activeModelView === 'all' || activeModelView === 'croston') && (
-                    <Line
-                      type="monotone"
-                      dataKey="croston"
-                      name="Croston Intermittent"
-                      stroke="#a855f7"
-                      strokeWidth={2}
-                      strokeDasharray="2 2"
-                      dot={false}
-                    />
-                  )}
-                  {(activeModelView === 'all' || activeModelView === 'dampened') && (
-                    <Line
-                      type="monotone"
-                      dataKey="dampenedTrend"
-                      name="Dampened Trend"
-                      stroke="#f59e0b"
-                      strokeWidth={2}
-                      dot={false}
-                    />
-                  )}
+                  {/* Gaussian Forecast */}
+                  <Line
+                    type="monotone"
+                    dataKey="forecastPrimary"
+                    name="Gaussian + Seasonal Forecast"
+                    stroke="#10b981"
+                    strokeWidth={3}
+                    dot={false}
+                  />
                 </ComposedChart>
               </ResponsiveContainer>
             </div>
 
-            {/* Model Accuracy Diagnostics Scorecard */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-              <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
-                <div className="text-[10px] text-slate-400">Holt-Winters WMAPE</div>
-                <div className="text-lg font-bold font-mono text-blue-400">{skuForecast?.metrics.holtWinters.wmape}%</div>
-                <div className="text-[9px] text-slate-500">RMSE: {skuForecast?.metrics.holtWinters.rmse}</div>
-              </div>
 
-              <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
-                <div className="text-[10px] text-slate-400">Croston WMAPE</div>
-                <div className="text-lg font-bold font-mono text-purple-400">{skuForecast?.metrics.croston.wmape}%</div>
-                <div className="text-[9px] text-slate-500">RMSE: {skuForecast?.metrics.croston.rmse}</div>
-              </div>
-
-              <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
-                <div className="text-[10px] text-slate-400">Dampened Trend WMAPE</div>
-                <div className="text-lg font-bold font-mono text-amber-400">{skuForecast?.metrics.dampenedTrend.wmape}%</div>
-                <div className="text-[9px] text-slate-500">RMSE: {skuForecast?.metrics.dampenedTrend.rmse}</div>
-              </div>
-
-              <div className="p-3 bg-emerald-500/10 rounded-xl border border-emerald-500/30">
-                <div className="text-[10px] text-emerald-400 font-semibold">Ensemble AI WMAPE</div>
-                <div className="text-lg font-bold font-mono text-emerald-400">{skuForecast?.metrics.ensemble.wmape}%</div>
-                <div className="text-[9px] text-emerald-500/80">Bias: {skuForecast?.metrics.ensemble.bias}</div>
-              </div>
-            </div>
           </div>
 
 
