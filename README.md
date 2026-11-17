@@ -34,17 +34,28 @@ The repository is structured to simulate a microservice-like environment tailore
 
 ## 🚀 Getting Started
 
-*(Instructions for local setup, environment installation, and running the prototype should be placed here depending on the active stack, e.g., Python requirements, Node.js installation, etc.)*
-
-### Prerequisites
-* Python 3.x for Backend and AI Models
-* Node.js / NPM for the Frontend
-* Additional requirements found in `backend/requirements.txt` (or equivalent) and `frontend/package.json`.
-
 ### Local Execution
-1. Install backend dependencies and run the server.
-2. Install frontend dependencies and start the UI server.
-3. Access the Executive Dashboard via your local browser.
+1. Install backend dependencies and run the server:
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   uvicorn main:app --reload --port 8000
+   ```
+2. Install frontend dependencies and start the UI server:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+3. Access the Executive Dashboard via `http://localhost:5173`.
+
+---
+
+## ☁️ Deployment on Render
+
+This project is ready for one-click deployment to **Render** via Render Blueprints or manual service creation:
+- **Automatic Blueprint**: Connect your GitHub repository to Render Blueprints using [`render.yaml`](./render.yaml).
+- **Full Guide**: See [DEPLOYMENT_RENDER.md](./DEPLOYMENT_RENDER.md) for step-by-step instructions for both Blueprint and manual dashboard setups.
 
 ---
 

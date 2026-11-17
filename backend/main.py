@@ -5,7 +5,6 @@ from typing import Dict, Any, List, Optional
 from functools import lru_cache
 from fastapi import FastAPI, Query, Body, Response
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from pydantic import BaseModel
 
@@ -27,14 +26,25 @@ app = FastAPI(
     description="Operational decision-support platform for multi-objective allocation, risk prediction, and procurement optimization."
 )
 
-# Enable CORS for frontend
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Enable CORS for frontend (supports custom origins via ALLOWED_ORIGINS env or wildcard)
+allowed_origins_raw = os.environ.get("ALLOWED_ORIGINS", "*").strip()
+if allowed_origins_raw == "*":
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=False,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+else:
+    allowed_origins = [orig.strip() for orig in allowed_origins_raw.split(",") if orig.strip()]
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=allowed_origins,
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 # Enable GZip Compression for large payloads
 app.add_middleware(GZipMiddleware, minimum_size=1000)
@@ -348,6 +358,47 @@ def get_executive_report(
         risk_weight=risk_weight
     )
 
+# -------------------------------------------------------------
+# Static Frontend Serving (Optional: for single-service deployment)
+# -------------------------------------------------------------
+frontend_dist_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+)
+if os.path.isdir(frontend_dist_path):
+    from fastapi.staticfiles import StaticFiles
+    from fastapi.responses import FileResponse
+
+    assets_dir = os.path.join(frontend_dist_path, "assets")
+    if os.path.isdir(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="frontend_assets")
+
+    data_dir_front = os.path.join(frontend_dist_path, "data")
+    if os.path.isdir(data_dir_front):
+        app.mount("/data", StaticFiles(directory=data_dir_front), name="frontend_data")
+
+    @app.get("/{full_path:path}")
+    async def serve_spa_frontend(full_path: str):
+        if full_path.startswith("api/"):
+            return Response(status_code=404, content='{"detail":"Not Found"}', media_type="application/json")
+        target_file = os.path.join(frontend_dist_path, full_path)
+        if full_path and os.path.isfile(target_file):
+            return FileResponse(target_file)
+        index_file = os.path.join(frontend_dist_path, "index.html")
+        if os.path.isfile(index_file):
+            return FileResponse(index_file)
+        return {"status": "Frontend build index.html not found"}
+else:
+    @app.get("/")
+    def root_endpoint():
+        return {
+            "status": "online",
+            "service": "TrendWear S&OP + Procurement Intelligence API",
+            "health": "/api/health",
+            "docs": "/docs"
+        }
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    port = int(os.environ.get("PORT", 8000))
+    host = os.environ.get("HOST", "0.0.0.0")
+    uvicorn.run("main:app", host=host, port=port, reload=False)

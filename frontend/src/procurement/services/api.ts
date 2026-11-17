@@ -1,4 +1,16 @@
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+function getApiBaseUrl(): string {
+  const envUrl = import.meta.env.VITE_API_BASE_URL?.trim();
+  if (envUrl) {
+    let base = envUrl.replace(/\/+$/, '');
+    if (!base.startsWith('http://') && !base.startsWith('https://') && !base.startsWith('/')) {
+      base = `https://${base}`;
+    }
+    return base.endsWith('/api') ? base : `${base}/api`;
+  }
+  return import.meta.env.DEV ? 'http://127.0.0.1:8000/api' : '/api';
+}
+
+const API_BASE_URL = getApiBaseUrl();
 
 export async function fetchFilterOptions() {
   const res = await fetch(`${API_BASE_URL}/filter-options`);
