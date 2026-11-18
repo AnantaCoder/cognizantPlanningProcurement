@@ -1,4 +1,4 @@
-# Cognizant Planning & Procurement Prototype
+#  Planning & Procurement Prototype
 
 An advanced AI-driven, multi-backend Sales and Operations Planning (S&OP) and Procurement system. This prototype orchestrates everything from raw data ingestion and S&OP planning down to AI-predicted supplier risk evaluation and mathematically optimized Purchase Order (PO) allocations.
 
@@ -6,7 +6,7 @@ An advanced AI-driven, multi-backend Sales and Operations Planning (S&OP) and Pr
 
 ## 📖 Overview
 
-The Cognizant Planning & Procurement prototype tackles the "under-forecasting trap" and supply chain disruptions by breaking the architecture down into three focused domains:
+The Planning & Procurement prototype tackles the "under-forecasting trap" and supply chain disruptions by breaking the architecture down into three focused domains:
 
 1. **Planning System (P2):** Establishes the data foundation by ingesting demand signals, sanitizing data, calculating gross material requirements, and managing internal supply/inventory buffers.
 2. **Middleware & Governance:** The critical bridge that processes net material requirements, manages scenario/disruption testing (What-If analysis), and hosts the Executive Dashboard.
